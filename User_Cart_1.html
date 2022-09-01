@@ -1,0 +1,345 @@
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- bootstrap-drawer -->
+    <link rel="stylesheet" href="dist/css/bootstrap-drawer.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/css/Nav_Bar.css">
+    <link rel="stylesheet" href="./styles/css/account_user.css">
+
+    <title>سفارشات</title>
+
+
+
+</head>
+
+<body class="d-flex flex-column">
+    <!-- header -->
+    <header class="d-flex flex-column">
+        <!-- navbar -->
+        <nav
+            class="navbar pt-4 pt-lg-3 navbar-expand-lg d-flex justify-content-between bg-white shadow c-container align-items-center">
+            <!-- nav icon -->
+            <div class="row w-100 no-gutters">
+                <!-- nav icon -->
+                <ul class="col-2 p-2 d-flex justify-content-start align-items-start d-lg-none  ">
+                    <i class="fa fa-bars pt-2" data-toggle="drawer" data-target="#drawer-1"
+                        style="width: 30px; font-size: 1.9rem;"></i>
+                </ul>
+                <!-- end nav icon -->
+                <div class="col-3 col-lg-3 justify-content-center d-none d-lg-flex align-items-center">
+                    <!-- logo -->
+                    <img src="image/فرش عاطفی@2x.png" class="mx-auto w-50 h-50" alt="logo">
+                    <!-- end logo -->
+                </div>
+
+                <div class="col-8 col-lg-6">
+                    <!-- search -->
+                    <div class="d-flex w-100 flex-column">
+                        <div class="input-group  w-100">
+                            <span class="pt-1 pr-2">
+                                <img src="./image/search.png" alt="icon" class="Search_Icon text-center">
+                            </span>
+                            <input type="text" class="search_input" class="pr-5" placeholder="جست و جو در محصولات" />
+                        </div>
+
+                        <div class="d-none d-lg-flex w-100 justify-content-between mt-4">
+                            <h5 class="header_txt text-nowrap text-secondary">خانه</h5>
+                            <h5 class="header_txt text-nowrap text-secondary">دسته بندی</h5>
+                            <h5 class="header_txt text-nowrap text-secondary">درباره ما</h5>
+                            <h5 class="header_txt text-nowrap text-secondary">تماس با ما</h5>
+                            <h5 class="header_txt text-nowrap text-secondary"> فروشنده شو </h5>
+                        </div>
+                    </div>
+                    <!-- end search -->
+                </div>
+
+                <div class="col-2 pt-3 col-lg-3">
+                    <!-- option icon -->
+                    <ul class="d-flex align-items-center justify-content-center">
+                        <li class="costom-ml">
+                            <a href="#">
+                                <img src="image/user@2x.png" class="option-img-1" alt="user">
+                            </a>
+                        </li>
+                        <li class="costom-ml">
+                            <a href="#">
+                                <img src="image/shopping-cart@2x.png" class="option-img" alt="shop">
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- end option icon -->
+                </div>
+
+                <div class="col-12 d-flex d-lg-none justify-content-around mt-4">
+                    <h5 class="header_txt text-nowrap text-secondary">خانه</h5>
+                    <h5 class="header_txt text-nowrap text-secondary">دسته بندی</h5>
+                    <h5 class="header_txt text-nowrap text-secondary">درباره ما</h5>
+                    <h5 class="header_txt text-nowrap text-secondary">تماس با ما</h5>
+                    <h5 class="header_txt text-nowrap text-secondary"> فروشنده شو </h5>
+                </div>
+
+            </div>
+        </nav>
+        <!-- navbar -->
+    </header>
+    <!-- end header -->
+
+
+    <main class="main-mobail-pt d-flex pr-3 pr-lg-0 container-self container-fluid" style="padding-top: 0px; ">
+        <aside class="d-none d-lg-flex flex-column">
+            <!-- information admin -->
+            <div class="ml-4 bg-white row no-gutters p-2 mr-4 mt-5 pb-lg-2 d-none d-md-flex d-lg-flex d-xl-flex justify-content-center mb-3 user-page-aside-bgc"
+                id="image" style="border-radius: 5px !important;">
+                <div class="d-flex w-100 justify-content-center mt-1">
+                    <img src="./image/bill.jpg" class="user-img rounded-circle" id="image2">
+                </div>
+                <h5 class="UserName_txt text-nowrap text-white mt-3" style="line-height: 0 !important;">
+                    امیر حسین میرزایی
+                </h5>
+                <div class="d-flex justify-content-center w-100 mt-2">
+                    <p class="PhoneUnderName text-nowrap text-white m-0"
+                        style="font-size: 14px;margin: 0 0 0 0 !important;"> +98 09123456789</p>
+
+                </div>
+            </div>
+            <!-- end information admin -->
+
+            <!-- main asaid bar -->
+            <div class="row no-gutters mr-4 d-none d-md-flex d-lg-flex d-xl-flex" id="money">
+                <ul class="w-100 d-flex justify-content-start flex-column align-items-center m-0 ">
+
+                    <li class="w-100 d-flex rounded justify-content-center flex-column align-items-center nav-bgc">
+                        <a href="#" class="d-flex align-items-center  p-3 text-white">سبد خرید</a>
+                    </li>
+                    <li
+                        class="w-100 shadow d-flex rounded justify-content-center mt-2 flex-column align-items-center bg-white ">
+                        <a href="#" class="d-flex align-items-center  p-3 " style="color: #004b7d;">سفارشات</a>
+                    </li>
+                    <li class="w-100 d-flex rounded mt-2 justify-content-center flex-column align-items-center nav-bgc">
+                        <a href="#" class="d-flex align-items-center p-3 text-white">تیکت ها</a>
+                    </li>
+                    <li class="w-100 d-flex rounded mt-2 justify-content-center flex-column align-items-center nav-bgc">
+                        <a href="#" class="d-flex align-items-center p-3 text-white">اعلان ها</a>
+                    </li>
+                    <li
+                        class="w-100 d-flex  rounded mt-2 justify-content-center flex-column align-items-center nav-bgc ">
+                        <a href="#" class="d-flex align-items-center p-3 text-white"> اطلاعات
+                            کاربری</a>
+                    </li>
+                    <li class="w-100 d-flex rounded mt-2 justify-content-center flex-column align-items-center nav-bgc">
+                        <a href="#" class="d-flex align-items-center p-3 text-white"> خروج از حساب</a>
+                    </li>
+
+
+
+                </ul>
+            </div>
+            <!-- end main asaid bar -->
+        </aside>
+
+        <div class="d-flex flex-column ml-0 ml-lg-3 mt-3 w-100">
+            <div class="w-100 mt-3">
+                <table class="d-flex flex-column w-100">
+                    <!-- headers form -->
+                    <thead class="w-100 BGC-U">
+                        <tr class="d-flex justify-content-around align-items-center justify-content-center">
+                            <th class="p-3 w-100 text-center font-x font-bx text-nowrap text-white font-weight-lighter">
+                                کد سفارش</th>
+                            <th class="p-3 w-100 text-center font-x font-bx text-nowrap text-white font-weight-lighter">
+                                تاریخ </th>
+                            <th class="p-3 w-100 text-center font-x font-bx text-nowrap text-white font-weight-lighter">
+                                قیمت کل (تومان)</th>
+                            <th class="p-3 w-100 text-center font-x font-bx text-nowrap text-white font-weight-lighter">
+                                وضعیت</th>
+                            <th class="p-3 w-100 text-center font-x font-bx text-nowrap text-white font-weight-lighter">
+                                کد پیگیری</th>
+                        </tr>
+                    </thead>
+                    <!-- end headers form -->
+
+                    <!-- data form -->
+                    <tbody class="w-100 bg-white">
+                        <tr class="d-flex justify-content-around align-items-center justify-content-center">
+                            <td class="p-2 w-100 text-center font-x font-bx text-nowrap">4123</td>
+                            <td class="p-2 w-100 text-center font-x font-bx text-nowrap">۱۳۷۷/۴/۲ </td>
+                            <td class="p-2 w-100 text-center font-x font-bx text-nowrap">۵۴۰۰۰۰۰۰</td>
+                            <td class="p-2 w-100 text-center font-x font-bx text-nowrap">ارسال شده</td>
+                            <td class="p-2 w-100 text-center font-x font-bx text-nowrap">۲۴۳۵۴</td>
+                        </tr>
+                    </tbody>
+                    <!-- end data form -->
+
+                </table>
+            </div>
+
+
+            <div class="row mt-2">
+                <!-- single commoditys -->
+                <div class="d-flex flex-column p-3 overflow-hidden col-12 col-sm-6 col-lg-4 col-xl-3"
+                    style="border-radius: 7px !important;">
+                    <div class="shadow border rounded">
+                        <!-- commodity img -->
+                        <div class="h-set">
+                            <img src="image/carpet_PNG57690@2x.png" class="h-100" style="width: 100%;" alt="carpet_PNG">
+                            <div
+                                class="takhfif-u text-white d-flex justify-content-center align-items-center position-absolute">
+                                10%</div>
+                            <div
+                                class="takhfif-u2 text-white d-flex justify-content-center align-items-center position-absolute">
+                                5</div>
+                        </div>
+                        <!-- end commodity img -->
+
+                        <div class="d-flex flex-column bg-white font-set-c">
+                            <span class="mt-2 text-center">برنج محسن</span>
+                            <div class="d-flex">
+                                <span class="pt-3 text-right pr-3">فروشنده :</span>
+                                <span class="pt-3 text-right pr-1">غدیری</span>
+                            </div>
+                            <del class="pl-2 font-p text-danger font-b-sdfd">5,500,000 تومان</del>
+                            <div class="d-flex justify-content-between mt-2 pb-3 pr-3 pl-1">
+                                <span class="font-p font-b-sdfd">5 عدد</span>
+                                <span class="font-p font-b-sdfd">5,400,000 تومان</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- end single commoditys -->
+
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <!-- Drawer -->
+    <div class="drawer drawer-right slide" tabindex="-1" role="dialog" aria-labelledby="drawer-1-title" id="drawer-1"
+        style="width: 260px; border: none !important; display: none;" aria-hidden="true">
+        <div class="drawer-content drawer-content-scrollable" role="document"
+            style="border: none !important;width: 100% !important;">
+            <div class="drawer-body text-center mt-0 m-0 p-0 d-flex "
+                style="width: 100% !important; background-color: #004b7d !important;">
+                <div class="bg-white row no-gutters p-2  pb-lg-2 d-xs-flex d-sm-flex d-lg-none  mt-0 w-100 mb-0 user-page-aside-bgc"
+                    id="image_mobile">
+                    <div class="w-100 d-flex justify-content-center">
+                        <img src="./image/bill.jpg" class="user-img rounded-circle mt-4 mt-sm-3" id="image2">
+                    </div>
+                    <h5 class="UserName_txt text-nowrap text-white w-100 text-center">
+                        امیر حسین میرزایی
+                    </h5>
+                    <div class="d-flex justify-content-between w-100">
+                        <p class="PhoneUnderName text-nowrap mt-2 w-100 text-center" style="font-size: 15px;"> +98
+                            09123456789</p>
+                    </div>
+                </div>
+                <div class=" row no-gutters mt-0  d-flex d-lg-none w-100 user-page-aside-bgc" id="money">
+                    <ul class="w-100 d-flex justify-content-start flex-column align-items-center m-0 ">
+
+                        <li class="w-100 d-flex rounded justify-content-center flex-column align-items-center nav-bgc">
+                            <a href="#" class="d-flex align-items-center  p-3 text-white">سبد خرید</a>
+                        </li>
+                        <li
+                            class="w-100 shadow d-flex rounded justify-content-center mt-2 flex-column align-items-center bg-white ">
+                            <a href="#" class="d-flex align-items-center  p-3 " style="color: #004b7d;">سفارشات</a>
+                        </li>
+                        <li
+                            class="w-100 d-flex rounded mt-2 justify-content-center flex-column align-items-center nav-bgc">
+                            <a href="#" class="d-flex align-items-center p-3 text-white">تیکت ها</a>
+                        </li>
+                        <li
+                            class="w-100 d-flex rounded mt-2 justify-content-center flex-column align-items-center nav-bgc">
+                            <a href="#" class="d-flex align-items-center p-3 text-white">اعلان ها</a>
+                        </li>
+                        <li
+                            class="w-100 d-flex  rounded mt-2 justify-content-center flex-column align-items-center nav-bgc ">
+                            <a href="#" class="d-flex align-items-center p-3 text-white"> اطلاعات
+                                کاربری</a>
+                        </li>
+                        <li
+                            class="w-100 d-flex rounded mt-2 justify-content-center flex-column align-items-center nav-bgc">
+                            <a href="#" class="d-flex align-items-center p-3 text-white"> خروج از حساب</a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Drawer -->
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="./dist/js/bootstrap-drawer.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "saeed") {
+                x.className += "responsive";
+                // var element1 = document.getElementById("logo");
+                // element1.classList.add("d-flex");
+            } else {
+                var element1 = document.getElementById("logo");
+                element1.classList.add("d-none");
+                x.className = "saeed";
+            }
+        }
+
+        // set profile image
+        $(".preview").click(function () {
+            $("#upload").click();
+        });
+
+        $("#upload").change(function () {
+            preview(this);
+        });
+
+        function preview(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('.preview').attr('src', e.target.result);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        // drawer
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        // end drawer
+    </script>
+
+
+</body>
+
+</html>

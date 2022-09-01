@@ -1,0 +1,321 @@
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/css/Admin1.css">
+    <link rel="stylesheet" href="./styles/css/Admin2.css">
+    <link rel="stylesheet" href="./styles/css/Admin_Request.css">
+    <title>Admin_Requests</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row d-flex flex-wrap p-lg-4">
+            <!-- user image for desktop -->
+            <div class="col-12 col-lg-4 pr-0 pl-0  UserImageNameOther_div d-none d-lg-block  bg-white rounded"
+                style="z-index: 1 !important;">
+                <!-- user image -->
+                <div class="row no-gutters p-2 mt-4 pb-lg-2">
+                    <div class="col-4 UserImage_div text-center  d-flex justify-content-center align-items-start">
+                        <a href="#" class="text-decoration-none">
+                            <p class="EditInformation_txt text-nowrap" style="margin-bottom: 50px !important;"> ویرایش
+                                اطلاعات</p>
+                        </a>
+                    </div>
+                    <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                        <img src="./image/bill.jpg" alt="user_img" class="user-img1 rounded-circle"
+                            style="margin-top: 50px;">
+                        <h5 class="UserName_txt text-nowrap">
+                            امیر حسین میرزایی
+                        </h5>
+                        <p class="PhoneUnderName text-nowrap mt-2"> +98 09123456789</p>
+                    </div>
+                    <div class="col-4 pl-3">
+                        <a href="#" class="text-decoration-none">
+                            <p class="EditInformation_txt text-nowrap" style="margin-bottom: 50px !important;">
+                                تغیر رمز عبور</p>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- end user image -->
+
+                <div class="d-flex  justify-content-between" style="margin-top:90px;">
+                    <div
+                        class="BackExit_div w-50 order-lg-1 p-3 bg-white rounded d-flex align-items-center flex-column justify-content-center">
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-flex flex-column">
+                                <img src="./image/turn-off.png" class="icon" alt="icon">
+                                <h5 class="BackExit_txt mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                    خروج
+                                </h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div
+                        class="BackExit_div w-50 order-lg-1  mr-3 p-3 bg-white rounded d-flex align-items-center flex-column justify-content-center">
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-flex flex-column">
+                                <img src="./image/reply.png" class="icon" alt="icon">
+                                <h5 class="BackExit_txt mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                    بازگشت
+                                </h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end user image for desktop -->
+            <!-- Factors -->
+            <div class="factors_div col-11 col-lg-8 mx-auto pl-lg-3 rounded mt-3 mt-lg-0">
+                <!-- title -->
+                <div class="row justify-content-around rounded mr-lg-2  pl-lg-3 mt-2 mt-lg-0 " style="height: 65px;">
+                    <div class="pishfactor_header shadow  col-6 col-lg-12 d-flex justify-content-center rounded"
+                        style="border: 1px #ebebeb solid !important;">
+                        <h4 class="text-center FactorHeader_txt d-inline text-nowrap">درخواست ها </h4>
+                    </div>
+
+                    <div class="col-6 d-block d-lg-none d-flex pl-0 justify-content-center rounded ">
+
+                        <div class="bg-white w-100 shadow rounded d-flex justify-content-center ">
+                            <a href="#">
+                                <img src="./image/reply.png" class="icon" alt="icon">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- end title -->
+
+                <!-- table for mobile -->
+                <div class="row mt-4 d-lg-none d-flex justify-content-center">
+                    <div class="col-12 p-0 d-flex justify-content-center"">
+                        <table class=" w-100 table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    <h6 class="table_mobile_header text-secondary text-center">کد درخواست
+                                    </h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="table_mobile_header text-secondary text-center">درخواست دهنده
+                                    </h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="table_mobile_header text-secondary text-center"> نوع درخواست
+                                    </h6>
+                                </th>
+
+                                <th scope="col">
+                                    <h6 class="table_mobile_header text-secondary text-center"> زمان درخواست</h6>
+                                </th>
+                                <th scope="col">
+                                    <h6 class="table_mobile_header text-secondary text-center"> مشاهده</h6>
+                                </th>
+
+                                <th scope="col">
+                                    <h6 class="table_mobile_header text-secondary text-center"> وضعیت </h6>
+                                </th>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-white">
+                                <th scope="row">
+                                    <h6 class="text-center  text-muted table_mobile_content">01</h6>
+                                </th>
+                                <td>
+                                    <h6 class="text-center  text-muted table_mobile_content">فروشنده A</h6>
+                                </td>
+                                <td>
+                                    <h6 class="text-center  text-muted table_mobile_content"> درخواست عکاسی</h6>
+                                </td>
+                                <td>
+                                    <h6 class="text-center  text-muted table_mobile_content"> 1399/2/6</h6>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <h6 class="text-center mt-2"> <img src="./image/document.png" alt="icon"
+                                                style="height: 22px; width: 22px;"></h6>
+                                    </a>
+                                </td>
+
+                                <td>
+                                    <div class="bg-success rounded-circle mx-auto" style="width: 15px; height: 15px; ">
+
+                                    </div>
+                                </td>
+
+
+                            </tr>
+                            <tr class="bg-white">
+                                <th scope="row">
+                                    <h6 class="text-center  text-muted table_mobile_content">02</h6>
+                                </th>
+                                <td>
+                                    <h6 class="text-center  text-muted table_mobile_content">فروشنده B</h6>
+                                </td>
+                                <td>
+                                    <h6 class="text-center text-muted table_mobile_content"> درخواست عکاسی</h6>
+                                </td>
+                                <td>
+                                    <h6 class="text-center  text-muted table_mobile_content"> 1399/5/3</h6>
+                                </td>
+                                <td>
+                                    <a href="#">
+                                        <h6 class="text-center mt-2"> <img src="./image/document.png" alt="icon"
+                                                style="height: 22px; width: 22px;"></h6>
+                                    </a>
+                                </td>
+                                <td>
+                                    <div class="bg-danger rounded-circle mx-auto" style="width: 15px; height: 15px; ">
+
+                                    </div>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                        </table>
+                    </div>
+                    <footer class="w-100">
+                        <div class="w-100 d-flex justify-content-center mb-1 mt-2">
+                            <a href="#"
+                                class="m-2 mt-4 d-flex  justify-content-center text-decoration-none align-items-center pageination"><img
+                                    src="image/back-1@2x.png" width="10px" alt="back"></a>
+                            <a href="#"
+                                class="m-2 mt-4 d-flex  justify-content-center text-decoration-none align-items-center pageination">3</a>
+                            <a href="#"
+                                class="m-2 mt-4 d-flex justify-content-center text-decoration-none align-items-center pageination pageination-page text-white">2</a>
+                            <a href="#"
+                                class="m-2 mt-4 d-flex justify-content-center text-decoration-none align-items-center pageination">1</a>
+                            <a href="#"
+                                class="m-2 mt-4 d-flex justify-content-center align-items-center pageination"><img
+                                    src="image/back@2x.png" width="10px" alt="naxt"></a>
+                        </div>
+                    </footer>
+                </div>
+                <!-- end table for mobile -->
+
+                <!-- table for desktop -->
+                <div class="row mt-4 d-none pr-2 d-lg-flex ">
+                    <div class="col-12 d-flex justify-content-center">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th scope="col">
+                                        <h6 class="table_desktop_header text-secondary text-center">کد درخواست</h6>
+                                    </th>
+                                    <th scope="col">
+                                        <h6 class="table_desktop_header text-secondary text-center">درخواست دهنده</h6>
+                                    </th>
+                                    <th scope="col">
+                                        <h6 class="table_desktop_header text-secondary text-center">نوع درخواست</h6>
+                                    </th>
+                                    <th scope="col">
+                                        <h6 class="table_desktop_header text-secondary text-center"> زمان درخواست</h6>
+                                    </th>
+                                    <th scope="col">
+                                        <h6 class="table_desktop_header text-secondary text-center"> مشاهده</h6>
+                                    </th>
+
+                                    <th scope="col">
+                                        <h6 class="table_desktop_header text-secondary text-center"> وضعیت </h6>
+                                    </th>
+                            </thead>
+                            <tbody>
+                                <tr class="bg-white">
+                                    <th scope="row">
+                                        <h6 class="text-center text-muted table_desktop_content">01</h6>
+                                    </th>
+                                    <td>
+                                        <h6 class="text-center  text-muted table_desktop_content">فروشنده A</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center  text-muted table_desktop_content"> درخواست عکاسی</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center  text-muted table_desktop_content"> 1399/4/2</h6>
+                                    </td>
+                                    <td>
+                                        <a href="#">
+                                            <h6 class="text-center table_state mt-2">
+                                                <img src="./image/document.png" alt="icon"
+                                                    style="height: 35px; width: 35px;">
+                                            </h6>
+                                        </a>
+                                    </td>
+
+                                    <td>
+                                        <h6 class="text-center font-weight-bold table_desktop_content text-success"
+                                            style="font-size: 18px;"> تایید
+                                        </h6>
+                                    </td>
+
+                                </tr>
+                                <tr class="bg-white">
+                                    <th scope="row">
+                                        <h6 class="text-center  text-muted table_desktop_content">02</h6>
+                                    </th>
+                                    <td>
+                                        <h6 class="text-center  text-muted table_desktop_content">فروشنده B</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center  text-muted table_desktop_content"> درخواست عکاسی</h6>
+                                    </td>
+                                    <td>
+                                        <h6 class="text-center  text-muted table_desktop_content"> 1399/2/6</h6>
+                                    </td>
+                                    <td>
+                                        <a href="#">
+                                            <h6 class="text-center table_state mt-2">
+                                                <img src="./image/document.png" alt="icon"
+                                                    style="height: 35px; width: 35px;">
+                                            </h6>
+                                        </a>
+                                    </td>
+
+                                    <td>
+                                        <h6 class="text-center font-weight-bold mt-2 text-danger"
+                                            style="font-size: 18px;"> عدم تایید
+                                        </h6>
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <footer class="w-100">
+                        <div class="w-100 d-flex justify-content-center mb-1 mt-2">
+                            <a href="#"
+                                class="m-2 mt-4 d-flex  justify-content-center text-decoration-none align-items-center pageination"><img
+                                    src="image/back-1@2x.png" width="10px" alt="back"></a>
+                            <a href="#"
+                                class="m-2 mt-4 d-flex  justify-content-center text-decoration-none align-items-center pageination">3</a>
+                            <a href="#"
+                                class="m-2 mt-4 d-flex justify-content-center text-decoration-none align-items-center pageination pageination-page text-white">2</a>
+                            <a href="#"
+                                class="m-2 mt-4 d-flex justify-content-center text-decoration-none align-items-center pageination">1</a>
+                            <a href="#"
+                                class="m-2 mt-4 d-flex justify-content-center align-items-center pageination"><img
+                                    src="image/back@2x.png" width="10px" alt="naxt"></a>
+                        </div>
+                    </footer>
+                </div>
+                <!-- end table for desktop -->
+            </div>
+            <!-- edit Factors -->
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

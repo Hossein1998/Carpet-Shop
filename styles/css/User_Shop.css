@@ -1,0 +1,1400 @@
+body {
+  background-color: #fafafa;
+  background-size: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("../../fonts/IRANYekanRegular.ttf");
+}
+
+a {
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "MyFont";
+}
+
+.font {
+  font-size: 18px !important;
+}
+
+@media (max-width: 1600px) {
+  .font {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .font {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 996px) {
+  .font {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .font {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font {
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font {
+    font-size: 7px !important;
+  }
+}
+
+.font-x {
+  font-size: 18px !important;
+}
+
+@media (max-width: 1600px) {
+  .font-x {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .font-x {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .font-x {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .font-x {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .font-x {
+    padding: 3px !important;
+    font-size: 12px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-x {
+    padding: 3px !important;
+    font-size: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .font-x {
+    padding: 3px !important;
+    font-size: 8px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font-x {
+    padding: 2px !important;
+    font-size: 6px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-x {
+    padding: 2px !important;
+    font-size: 5px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font-bx {
+    padding: 2px !important;
+    font-size: 8px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-bx {
+    padding: 2px !important;
+    font-size: 8px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.font-b {
+  font-size: 18px !important;
+}
+
+@media (max-width: 1600px) {
+  .font-b {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .font-b {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 14px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 13px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 12px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 8px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.font-p {
+  font-size: 14px !important;
+}
+
+@media (max-width: 1600px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 1472px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 1371px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font-p {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-p {
+    font-size: 10px !important;
+  }
+}
+
+.bgc-footer {
+  background-color: #004b7d;
+}
+
+@media (max-width: 450px) {
+  .font-b-sdf {
+    padding: 15px !important;
+    font-size: 11px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.input-group {
+  border: none !important;
+  background-color: #eeeeee;
+  -webkit-box-shadow: 1px 1px 1px 1px #eaeaea;
+          box-shadow: 1px 1px 1px 1px #eaeaea;
+  border-radius: 10px;
+}
+
+.search_input {
+  border: none !important;
+  background-color: #eeeeee;
+  width: 80% !important;
+  padding-right: 10px;
+}
+
+.Search_Icon {
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+}
+
+@media (max-width: 390px) {
+  .Search_Icon {
+    width: 22px;
+    height: 22px;
+    margin-top: 15px;
+  }
+}
+
+.header_txt {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header_txt {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header_txt {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .header_txt {
+    font-size: 0.7rem;
+    margin: 10px;
+  }
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.footer_txt {
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 130px;
+}
+
+@media (max-width: 768px) {
+  .footer_txt {
+    margin-right: 50px;
+  }
+}
+
+body {
+  background-color: #fafafa;
+  background-size: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("../../fonts/IRANYekanRegular.ttf");
+}
+
+a {
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "MyFont";
+}
+
+.font {
+  font-size: 18px !important;
+}
+
+@media (max-width: 1600px) {
+  .font {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .font {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 996px) {
+  .font {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .font {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font {
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font {
+    font-size: 7px !important;
+  }
+}
+
+.font-x {
+  font-size: 18px !important;
+}
+
+@media (max-width: 1600px) {
+  .font-x {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .font-x {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .font-x {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .font-x {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .font-x {
+    padding: 3px !important;
+    font-size: 12px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-x {
+    padding: 3px !important;
+    font-size: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .font-x {
+    padding: 3px !important;
+    font-size: 8px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font-x {
+    padding: 2px !important;
+    font-size: 6px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-x {
+    padding: 2px !important;
+    font-size: 5px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font-bx {
+    padding: 2px !important;
+    font-size: 8px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-bx {
+    padding: 2px !important;
+    font-size: 8px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.font-b {
+  font-size: 18px !important;
+}
+
+@media (max-width: 1600px) {
+  .font-b {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .font-b {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 14px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 13px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 12px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 8px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.font-p {
+  font-size: 14px !important;
+}
+
+@media (max-width: 1600px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 1472px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 1371px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font-p {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-p {
+    font-size: 10px !important;
+  }
+}
+
+.bgc-footer {
+  background-color: #004b7d;
+}
+
+@media (max-width: 450px) {
+  .font-b-sdf {
+    padding: 15px !important;
+    font-size: 11px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.input-group {
+  border: none !important;
+  background-color: #eeeeee;
+  -webkit-box-shadow: 1px 1px 1px 1px #eaeaea;
+          box-shadow: 1px 1px 1px 1px #eaeaea;
+  border-radius: 10px;
+}
+
+.search_input {
+  border: none !important;
+  background-color: #eeeeee;
+  width: 80% !important;
+  padding-right: 10px;
+}
+
+.Search_Icon {
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+}
+
+@media (max-width: 390px) {
+  .Search_Icon {
+    width: 22px;
+    height: 22px;
+    margin-top: 15px;
+  }
+}
+
+.header_txt {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header_txt {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header_txt {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .header_txt {
+    font-size: 0.7rem;
+    margin: 10px;
+  }
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.footer_txt {
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 130px;
+}
+
+@media (max-width: 768px) {
+  .footer_txt {
+    margin-right: 50px;
+  }
+}
+
+.input-group {
+  border: 1px #474747 solid;
+  padding: 10px;
+  height: 60px;
+}
+
+@media (max-width: 390px) {
+  .input-group {
+    padding: 0px;
+  }
+}
+
+input {
+  /* background-color: transparent; */
+  border: none !important;
+  width: 270px;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #474747;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #474747;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #474747;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #474747;
+  font-size: 18px;
+}
+
+@media (min-width: 300px) and (max-width: 340px) {
+  ::-webkit-input-placeholder {
+    font-size: 13px;
+  }
+  :-ms-input-placeholder {
+    font-size: 13px;
+  }
+  ::-ms-input-placeholder {
+    font-size: 13px;
+  }
+  ::placeholder {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 341px) and (max-width: 400px) {
+  ::-webkit-input-placeholder {
+    font-size: 15px;
+  }
+  :-ms-input-placeholder {
+    font-size: 15px;
+  }
+  ::-ms-input-placeholder {
+    font-size: 15px;
+  }
+  ::placeholder {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  ::-webkit-input-placeholder {
+    font-size: 17px;
+  }
+  :-ms-input-placeholder {
+    font-size: 17px;
+  }
+  ::-ms-input-placeholder {
+    font-size: 17px;
+  }
+  ::placeholder {
+    font-size: 17px;
+  }
+}
+
+button:focus {
+  outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: right;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 1px solid #aaaaaa;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #004b7d;
+  border: none;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.b-sh-set {
+  -webkit-box-shadow: 0px 1px 12px 0px #aaaaaa;
+          box-shadow: 0px 1px 12px 0px #aaaaaa;
+}
+
+.width--f {
+  width: 25% !important;
+}
+
+@media (max-width: 1494px) {
+  .width--f {
+    width: 28% !important;
+  }
+}
+
+@media (max-width: 1394px) {
+  .width--f {
+    width: 32% !important;
+  }
+}
+
+@media (max-width: 1268px) {
+  .width--f {
+    width: 37% !important;
+  }
+}
+
+@media (max-width: 1094px) {
+  .width--f {
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 1060px) {
+  .width--f {
+    width: 44% !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .width--f {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 928px) {
+  .width--f {
+    width: 58% !important;
+  }
+}
+
+@media (max-width: 854px) {
+  .width--f {
+    width: 50% !important;
+  }
+}
+
+.search::-webkit-input-placeholder {
+  /* Most modern browsers support this now. */
+  color: #474747;
+  font-size: 15px !important;
+}
+
+.search:-ms-input-placeholder {
+  /* Most modern browsers support this now. */
+  color: #474747;
+  font-size: 15px !important;
+}
+
+.search::-ms-input-placeholder {
+  /* Most modern browsers support this now. */
+  color: #474747;
+  font-size: 15px !important;
+}
+
+.search::placeholder {
+  /* Most modern browsers support this now. */
+  color: #474747;
+  font-size: 15px !important;
+}
+
+@media (min-width: 300px) and (max-width: 340px) {
+  .search::-webkit-input-placeholder {
+    font-size: 10px;
+  }
+  .search:-ms-input-placeholder {
+    font-size: 10px;
+  }
+  .search::-ms-input-placeholder {
+    font-size: 10px;
+  }
+  .search::placeholder {
+    font-size: 10px;
+  }
+}
+
+.price::-webkit-input-placeholder {
+  font-size: 10px !important;
+  color: #292929 !important;
+}
+
+.price:-ms-input-placeholder {
+  font-size: 10px !important;
+  color: #292929 !important;
+}
+
+.price::-ms-input-placeholder {
+  font-size: 10px !important;
+  color: #292929 !important;
+}
+
+.price::placeholder {
+  font-size: 10px !important;
+  color: #292929 !important;
+}
+
+@media (max-width: 1715px) {
+  .price::-webkit-input-placeholder {
+    font-size: 12px !important;
+  }
+  .price:-ms-input-placeholder {
+    font-size: 12px !important;
+  }
+  .price::-ms-input-placeholder {
+    font-size: 12px !important;
+  }
+  .price::placeholder {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 1475px) {
+  .price::-webkit-input-placeholder {
+    font-size: 11px !important;
+  }
+  .price:-ms-input-placeholder {
+    font-size: 11px !important;
+  }
+  .price::-ms-input-placeholder {
+    font-size: 11px !important;
+  }
+  .price::placeholder {
+    font-size: 11px !important;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 750px) {
+  .price::-webkit-input-placeholder {
+    font-size: 8px !important;
+  }
+  .price:-ms-input-placeholder {
+    font-size: 8px !important;
+  }
+  .price::-ms-input-placeholder {
+    font-size: 8px !important;
+  }
+  .price::placeholder {
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 735px) {
+  .font-p {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 669px) {
+  .font-p {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 509px) {
+  .font-p {
+    font-size: 10px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+}
+
+@media (max-width: 387px) {
+  .font-p {
+    font-size: 10px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+}
+
+.infor-nm {
+  font-size: 16 !important;
+}
+
+@media (max-width: 1300px) {
+  .infor-nm {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 735px) {
+  .infor-nm {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 454px) {
+  .infor-nm {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 396px) {
+  .infor-nm {
+    font-size: 8px !important;
+  }
+}
+
+.infor-m {
+  font-size: 17 !important;
+}
+
+@media (max-width: 1300px) {
+  .infor-m {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 735px) {
+  .infor-m {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 454px) {
+  .infor-m {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 396px) {
+  .infor-m {
+    font-size: 8px !important;
+  }
+}
+
+.takhfif {
+  width: 50px;
+  height: 50px;
+  top: 1.5rem;
+  right: 1.5rem;
+  background-color: #004b7d !important;
+}
+
+@media (max-width: 500px) {
+  .takhfif {
+    font-size: 12;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.search-icon {
+  width: 36px;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .search-icon {
+    width: 26px;
+  }
+}
+
+@media (max-width: 500px) {
+  .wwww {
+    width: 20% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .fofont {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 396px) {
+  .fofont {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .fo-font {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 396px) {
+  .fo-font {
+    margin-top: 6px;
+    font-size: 8px !important;
+  }
+}
+
+.pageination {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+
+.pageination-page {
+  background-color: #004b7d !important;
+}
+
+.bgc-wg {
+  background-color: #fff2db !important;
+}
+
+.img-h-wf {
+  width: 30px !important;
+}
+
+@media (min-width: 1200px) and (max-width: 1290px) {
+  .img-h-wf {
+    width: 20px !important;
+    margin: 0.8rem !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .img-h-wf {
+    width: 20px !important;
+    margin: 0.6rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .img-h-wf {
+    width: 16px !important;
+    margin: 0.3rem !important;
+  }
+}
+
+.mbbbb {
+  left: 1rem !important;
+}
+
+@media (max-width: 575px) {
+  .mbbbb {
+    bottom: 110px !important;
+    left: 0.5rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .mbbbb {
+    bottom: 92px !important;
+  }
+}
+
+.takhfif-u {
+  width: 50px;
+  height: 50px;
+  top: 0.6rem;
+  right: 0.6rem;
+  background-color: #004b7d !important;
+  border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+  /* Most modern browsers support this now. */
+  color: #474747;
+  font-size: 18px;
+}
+
+:-ms-input-placeholder {
+  /* Most modern browsers support this now. */
+  color: #474747;
+  font-size: 18px;
+}
+
+::-ms-input-placeholder {
+  /* Most modern browsers support this now. */
+  color: #474747;
+  font-size: 18px;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #474747;
+  font-size: 18px;
+}
+
+@media (min-width: 300px) and (max-width: 340px) {
+  ::-webkit-input-placeholder {
+    font-size: 13px;
+  }
+  :-ms-input-placeholder {
+    font-size: 13px;
+  }
+  ::-ms-input-placeholder {
+    font-size: 13px;
+  }
+  ::placeholder {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 341px) and (max-width: 400px) {
+  ::-webkit-input-placeholder {
+    font-size: 15px;
+  }
+  :-ms-input-placeholder {
+    font-size: 15px;
+  }
+  ::-ms-input-placeholder {
+    font-size: 15px;
+  }
+  ::placeholder {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 767px) {
+  ::-webkit-input-placeholder {
+    font-size: 17px;
+  }
+  :-ms-input-placeholder {
+    font-size: 17px;
+  }
+  ::-ms-input-placeholder {
+    font-size: 17px;
+  }
+  ::placeholder {
+    font-size: 17px;
+  }
+}
+
+/* Reset Select */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 0 !important;
+  background: #ffffff;
+  background-image: none;
+}
+
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+
+/* Custom Select */
+.select {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3em;
+  line-height: 3;
+  background: #fff;
+  width: 24% !important;
+  overflow: hidden;
+  border-radius: 0.25em;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .select {
+    width: 32% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .select {
+    width: 100% !important;
+  }
+}
+
+select {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0 0.5em;
+  color: #656565;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  select {
+    font-size: 12px;
+  }
+}
+
+/* Arrow */
+.select::after {
+  content: "\25BC";
+  color: #004b7d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 1em;
+  background: #fff;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+}
+
+.c-container {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+@media (max-width: 1600px) {
+  .c-container {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 1210px) {
+  .c-container {
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .c-container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+/*# sourceMappingURL=User_Shop.css.map */

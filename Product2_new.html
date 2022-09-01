@@ -1,0 +1,568 @@
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- main css -->
+    <link rel="stylesheet" href="/styles/css/Admin3.css">
+    <link rel="stylesheet" href="/styles/css/Admin8.css">
+    <link rel="stylesheet" href="/styles/css/test2.css">
+
+
+    <link rel="manifest" href="/manifest.json?v=1.4">
+    <meta name="theme-color" content="#004b7d">
+    <link rel="icon" type="image/png" sizes="192x192" href="/aks-192.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/aks-96.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/aks-48.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#004b7d">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Packt PWA">
+    <link rel="apple-touch-startup-image" href="/image/icon/aks-512.png">
+    <link rel="apple-touch-icon" sizes="48x48" href="/image/icon/aks-48.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="/image/icon/aks-96.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/image/icon/aks-144.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/image/icon/aks-192.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="/image/icon/aks-256.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/image/icon/aks-512.png">
+    <meta name="msapplication-TileImage" content="/image/icon/aks-144.png">
+    <meta name="msapplication-TileColor" content="#fff">
+
+    <title>محصول جدید</title>
+
+    <style>
+        #idmobiletag {
+
+            display: none;
+        }
+    </style>
+
+    <style>
+        #iddesktag {
+
+            display: none;
+        }
+    </style>
+    <style>
+        #closemodal {
+
+            display: none;
+        }
+    </style>
+
+
+    <style>
+        #showmodal {
+
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row d-flex flex-wrap p-lg-4">
+            <!-- user image for desktop -->
+            <div class="col-12 col-lg-4 pr-0 pl-0  UserImageNameOther_div d-none d-lg-block  bg-white rounded"
+                style="z-index: 1 !important;">
+                <!-- user image -->
+                <div class="row no-gutters p-2 mt-4 pb-lg-2">
+                    <div onclick="window.location='/admin/Edit1_information.html';"
+                        class="col-4 UserImage_div text-center  d-flex justify-content-center align-items-start">
+                        <a href="/admin/Edit1_information.html" class="text-decoration-none">
+                            <p class="EditInformation_txt text-nowrap" style="margin-bottom: 50px !important;"> ویرایش
+                                اطلاعات</p>
+                        </a>
+                    </div>
+                    <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                        <img id="image2" src="/image/bill.jpg" alt="user_img" class="user-img rounded-circle"
+                            style="margin-top: 70px;">
+                        <h5 id="adminnamedes" class="UserName_txt text-nowrap">
+                        </h5>
+                        <p id="adminmobiledes" class="PhoneUnderName text-nowrap mt-2"> </p>
+                    </div>
+                    <div class="col-4 pl-3 invisible">
+                        <a class="text-decoration-none">
+                            <p class="EditInformation_txt text-nowrap" style="margin-bottom: 50px !important;">
+                                تغیر رمز عبور</p>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- end user image -->
+
+                <div class="d-flex  justify-content-between" style="margin-top:90px;">
+                    <div
+                        class="BackExit_div w-50 order-lg-1 p-3 bg-white rounded d-flex align-items-center flex-column justify-content-center">
+                        <a id="logoutbtn" class="text-decoration-none">
+                            <div class="d-flex flex-column">
+                                <img src="/image/turn-off.png" class="icon" alt="icon">
+                                <h5 class="BackExit_txt mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                    خروج
+                                </h5>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div onclick="window.location='/admin/Product1_list.html';"
+                        class="BackExit_div w-50 order-lg-1  mr-3 p-3 bg-white rounded d-flex align-items-center flex-column justify-content-center">
+                        <a href="/admin/Product1_list.html" class="text-decoration-none">
+                            <div onclick="window.location='/admin/Product1_list.html';" class="d-flex flex-column">
+                                <img src="/image/reply.png" class="icon" alt="icon">
+                                <h5 class="BackExit_txt mt-lg-4 d-inline mx-auto text-right text-justify text-nowrap">
+                                    بازگشت
+                                </h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end user image for desktop -->
+
+            <!-- content -->
+            <div class="col-11 col-lg-8 mx-auto pl-lg-3 rounded mt-3 mt-lg-0">
+                <!-- title -->
+                <div class="row title_row justify-content-around rounded pl-lg-3 mt- mt-lg-0 ">
+                    <div class="col-4 col-lg-6 h-100 p-0 pl-2 pr-lg-3">
+                        <div onclick="window.location='/admin/Product1_list.html';"
+                            class="HeaderOfPage1_div h-100 d-flex justify-content-center rounded"
+                            style="border: 1px #ebebeb solid !important;">
+                            <h4 class="text-center HeaderOfPage_txt d-inline text-nowrap"> محصولات</h4>
+                        </div>
+                    </div>
+                    <div class="col-4 col-lg-6 h-100 p-0 pr-2 pr-lg-3">
+                        <div onclick="window.location='/admin/Product2_new.html';"
+                            class=" HeaderOfPage2_div h-100 d-flex justify-content-center rounded"
+                            style="border: 1px #ebebeb solid !important;">
+                            <h4 class="text-center HeaderOfPage_txt d-inline text-nowrap"> محصول جدید</h4>
+                        </div>
+                    </div>
+
+
+                    <div onclick="window.location='/admin/Product1_list.html';"
+                        class="col-4 d-block d-lg-none d-flex pl-0 justify-content-center rounded ">
+                        <div class="bg-white w-100 rounded d-flex justify-content-center ">
+                            <a href="/admin/Product1_list.html">
+                                <img src="/image/reply.png" class="icon" alt="icon">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- end title -->
+
+                <!-- inputs for mobile -->
+                <div class="row mt-4 BoxShadow bg-white p-3 flex-column d-lg-none ">
+                    <div class="row no-gutters">
+                        <div class="col-8 pl-1">
+                            <img id="image1_mob" src="/image/img2.jpg" class="preview2 w-100" alt="img1">
+                            <input id="upload1" type="file" accept="image/*" />
+                        </div>
+                        <div class="col-4">
+                            <img id="image2_mob" src="/image/img2.jpg" class="preview3 w-100" alt="img2">
+                            <input id="upload2" type="file" accept="image/*" />
+                            <img id="image3_mob" src="/image/img2.jpg" class="preview4 w-100 mt-1" alt="img3">
+                            <input id="upload3" type="file" accept="image/*" />
+                        </div>
+                    </div>
+                    <h5 class="inputs_lbl text-right mt-3">نام محصول</h5>
+                    <!-- name -->
+                    <div class="input-group pr-2">
+                        <input id="productname_mob" type="text" placeholder="نام محصول را وارد نمایید" />
+                    </div>
+                    <!-- end  name -->
+                    <h5 class="inputs_lbl mt-3 text-right"> دسته بندی محصول</h5>
+                    <!-- date -->
+                    <div class="d-flex overflow-hidden">
+                        <select class="aaa" id="office-select">
+                        </select>
+                        <ul id="iddesktag"></ul>
+
+                        <button onclick="window.location='#popup1';" id="savebtn_des" style="height: 60px !important; font-size: 11px;"
+                            class="bg-success w-25  text-white btn btn-block mx-auto" type="submit">
+                            نوع دسته بندی</button>
+                    </div>
+                    <!-- end  date -->
+                    <h5 class="inputs_lbl mt-3 text-right">کد محصول </h5>
+                    <!-- datails -->
+
+                    <!-- date -->
+                    <div class="input-group pr-2">
+                        <!--   <input id="productcode_mob" type="text" placeholder="کد محصول را وارد نمایید" />date -->
+                    </div>
+                    <!-- end  date -->
+
+                    <!-- end  datails -->
+                    <h5 class="inputs_lbl mt-3 text-right">قیمت محصول </h5>
+                    <!-- datails -->
+                    <div class="input-group pr-3">
+                        <input id="productprice_mob" type="text" placeholder="قیمت محصول را وارد نمایید" />
+                    </div>
+                    <!-- end  datails -->
+                    <h5 class="inputs_lbl mt-3 text-right">موجودی محصول </h5>
+                    <!-- datails -->
+                    <div class="input-group pr-2">
+                        <input id="productmojodi_mob" type="number" placeholder="موجودی محصول را وارد نمایید" />
+                    </div>
+                    <!-- end  datails -->
+                    <h5 class="inputs_lbl mt-3 text-right">تخفیف محصول </h5>
+                    <!-- datails -->
+                    <div class="input-group pr-2">
+                        <input id="productoff_mob" type="number" placeholder="تخفیف محصول به تومان" />
+                    </div>
+                    <!-- end  datails -->
+                    <h5 class="inputs_lbl mt-3 text-right">ویژگی های محصول</h5>
+                    <!-- datails -->
+
+
+
+
+                    <div id="row281">
+
+                        <div name="row201" class="input-group pr-2">
+                            <input id="name-attribute-mobile" type="text" placeholder="نام ویژگی را وارد نمایید" />
+                        </div>
+
+                        <div name="row202" class="row pl-3 pr-3 overflow-hidden">
+                            <div name="row203" class="col-12 col-sm-8 overflow-hidden input-group pr-2 mt-4">
+                                <input id="description-attribute-mobile" type="text"
+                                    placeholder=" توضیح ویژگی را وارد نمایید" />
+                            </div>
+                            <div
+                                class="col-12 p-0 col-sm-4 d-flex justify-content-center pt-3 pt-sm-0 mx-auto align-items-center ">
+                                <div id="add-attribute-mobile d-flex justify-content-center" class="border p-2  rounded"
+                                    style="background-color: #e8e8e8e8;">
+                                    <img src="/image/Group 155.png" class="plus_icon mx-auto" style="cursor: pointer;" alt="icon">
+                                </div>
+                                <div class="border p-2 m-2 d-none rounded invisible" style="background-color: #dc1f1b;">
+                                    <img src="/image/Group 158.png" class="plus_icon" alt="icon">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <!-- end  datails -->
+
+                    <!-- datails -->
+
+                    <!-- end  datails -->
+                    <button id="savebtn_mob" class="enterbutton btn btn-block mx-auto  w-100 " type="submit">
+                        ثبت</button>
+                </div>
+
+
+                <!-- inputs for Desktop -->
+                <div class="row mt-4 BoxShadow bg-white d-none p-3 d-lg-flex flex-column ml-1"
+                    style="margin-right: 18px;">
+                    <!-- name and date -->
+                    <div class="row">
+                        <div class="col-6">
+                            <h5 class="inputs_lbl text-right">نام محصول</h5>
+                            <!-- name -->
+                            <div class="input-group pr-2">
+                                <input id="productname_des" type="text" placeholder="نام محصول را وارد نمایید" />
+                            </div>
+                            <!-- end  name -->
+                            <h5 class="inputs_lbl mt-3 text-right"> دسته بندی محصول</h5>
+                            <!-- details -->
+                            <div class="d-flex">
+                                <select class="aaa" id="office-select">
+                                </select>
+                                <ul id="iddesktag"></ul>
+
+                                <button onclick="window.location='#popup1';" id="savebtn_des"
+                                    class="bg-success w-50 text-white btn btn-block mx-auto " type="submit">
+                                    نوع دسته بندی</button>
+                            </div>
+                            <!-- end  details -->
+                        </div>
+
+                        <div class="col-6 d-flex justify-content-center">
+                            <div class="row no-gutters">
+                                <div class="col-8 pl-1">
+                                    <img id="image1_des" src="/image/img3.jpg" class="preview2 w-100" alt="img1">
+                                    <input id="upload1" type="file" accept="image/*" />
+                                </div>
+                                <div class="col-4">
+                                    <img id="image2_des" src="/image/img3.jpg" class="preview3 w-100" alt="img2">
+                                    <input id="upload2" type="file" accept="image/*" />
+                                    <img id="image3_des" src="/image/img3.jpg" class="preview4 w-100 mt-1" alt="img3">
+                                    <input id="upload3" type="file" accept="image/*" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end name and date -->
+
+                    <div class="row mt-3">
+                        <div class="col-6">
+
+
+                            <h5 class="inputs_lbl mt-0 text-right">کد محصول</h5>
+                            <!-- details -->
+                            <div class="input-group pr-2">
+                                <!--   <input id="productcode_des" type="text" placeholder="کد محصول را وارد نمایید" /> -->
+                            </div>
+                            <!-- end  details -->
+                        </div>
+                        <div class="col-6">
+                            <h5 class="inputs_lbl text-right">قیمت محصول </h5>
+                            <!-- details -->
+                            <div class="input-group pr-2">
+                                <input id="productprice_des" type="tel" placeholder="قیمت محصول را وارد نمایید" />
+                            </div>
+                            <!-- end  details -->
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <h5 class="inputs_lbl text-right">موجودی محصول</h5>
+                            <!-- details -->
+                            <div class="input-group pr-2">
+                                <input id="productmojodi_des" type="number" placeholder="موجودی محصول را وارد نمایید" />
+                            </div>
+                            <!-- end  details -->
+                        </div>
+                        <div class="col-6">
+                            <h5 class="inputs_lbl text-right">تخفیف محصول </h5>
+                            <!-- details -->
+                            <div class="input-group pr-2">
+                                <input id="productoff_des" type="tel" placeholder="تخفیف محصول را وارد نمایید" />
+                            </div>
+                            <!-- end  details -->
+                        </div>
+                    </div>
+
+
+
+
+                    <div id="row280">
+                        <div class="row no-gutters mt-3">
+
+                            <div name="row98" class="col-3">
+                                <h5 class="inputs_lbl text-nowrap text-right">ویژگی های محصول </h5>
+                                <!-- details -->
+                                <div name="row99" class="input-group pr-2">
+                                    <input id="name-attribute" type="text" placeholder="نام ویژگی" />
+                                </div>
+                                <!-- end  details -->
+                            </div>
+
+                            <div name="row101" class="col-7">
+                                <h5 class="inputs_lbl text-right invisible">توضیح ویژگی </h5>
+                                <!-- details -->
+                                <div name="row102" class="input-group pr-2">
+                                    <input id="description-attribute" type="text" placeholder="توضیح ویژگی" />
+                                </div>
+
+                            </div>
+
+
+
+
+                            <div class="col-2 d-flex pt-4 align-items-center justify-content-satart">
+                                <div id="add-atribute-desktop" class="border p-2 m-2 rounded"
+                                    style="background-color: #e8e8e8e8;">
+                                    <img src="/image/Group 155.png" class="plus_icon" style="cursor: pointer;" alt="icon">
+                                </div>
+                                <div class="border p-2 m-2 rounded invisible" style="background-color: #dc1f1b;">
+                                    <img src="/image/Group 158.png" class="plus_icon" alt="icon">
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <button id="savebtn_des" class="enterbutton btn btn-block mx-auto " type="submit">
+                        ثبت</button>
+                </div>
+                <!-- submit button -->
+
+
+                <!-- end submit button -->
+            </div>
+
+            <!-- end inputs for Desktop-->
+        </div>
+
+
+
+    </div>
+    <!-- edit content -->
+    </div>
+    </div>
+    <!-- Modal definition -->
+    <div id="ooo" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false"
+        style="background-color:#e2e0e060;" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+        </div>
+        <div class="load " id="myModal3"></div>
+        <div class="wait " id="myModal14">لطفا صبر کنید ...</div>
+    </div>
+
+    <!-- popup -->
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <div class="row text-center p-0 mt-1">
+                <div class="col-12 m-0">
+                    <a href="#">
+                        <img src="./image/x.png" class="float-left" alt="icon" style="width: 20px; height: 20px;">
+                    </a>
+                </div>
+                <div class="col-12">
+                    <span style="font-size: 17px;">دسته بندی</span>
+                    <textarea placeholder="دسته بندی مورد نظر خود را بنویسید"
+                        class="text-center w-100 border m-0 card-body d-flex align-items-center mt-3"
+                        style="color: #a2a2a2; border: 1px solid #eee !important;"></textarea>
+
+
+                    <div class="w-100 d-flex align-items-center justify-content-center mb-1">
+                        <button class="m-2 btn text-white w-25 text-nowrap  font-set-commodity-menu"
+                            style="background-color: #00af80;">ثبت</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--end popup -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script>
+        // set profile image
+        $(".preview2").click(function () {
+            $("#upload1").click();
+        });
+
+        $("#upload1").change(function () {
+            preview2(this);
+        });
+
+        function preview2(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('.preview2').attr('src', e.target.result);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+
+
+
+        $(".preview3").click(function () {
+            $("#upload2").click();
+        });
+
+        $("#upload2").change(function () {
+            preview3(this);
+        });
+
+        function preview3(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('.preview3').attr('src', e.target.result);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+
+
+        $(".preview4").click(function () {
+            $("#upload3").click();
+        });
+
+        $("#upload3").change(function () {
+            preview4(this);
+        });
+
+        function preview4(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('.preview4').attr('src', e.target.result);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        //end set profile image
+        $('select').each(function () {
+            var $this = $(this), numberOfOptions = $(this).children('option').length;
+
+            $this.addClass('select-hidden');
+            $this.wrap('<div class="select"></div>');
+            $this.after('<div class="select-styled"></div>');
+
+            var $styledSelect = $this.next('div.select-styled');
+            $styledSelect.text($this.children('option').eq(0).text());
+
+            var $list = $('<ul />', {
+                'class': 'select-options'
+            }).insertAfter($styledSelect);
+
+            for (var i = 0; i < numberOfOptions; i++) {
+                $('<li />', {
+                    text: $this.children('option').eq(i).text(),
+                    rel: $this.children('option').eq(i).val()
+                }).appendTo($list);
+            }
+
+            var $listItems = $list.children('li');
+
+            $styledSelect.click(function (e) {
+                e.stopPropagation();
+                $('div.select-styled.active').not(this).each(function () {
+                    $(this).removeClass('active').next('ul.select-options').hide();
+                });
+                $(this).toggleClass('active').next('ul.select-options').toggle();
+            });
+
+            $listItems.click(function (e) {
+                e.stopPropagation();
+                $styledSelect.text($(this).text()).removeClass('active');
+                $this.val($(this).attr('rel'));
+                $list.hide();
+                //console.log($this.val());
+            });
+
+            $(document).click(function () {
+                $styledSelect.removeClass('active');
+                $list.hide();
+            });
+
+        });
+    </script>
+
+    <script src="/libs/jquery.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="/libs/persianumber.js"></script>
+    <script src="/libs/jQuery.persianNumbers-1.0.js"></script>
+    <script src="/libs/jQuery.persianNumbers-1.0.min.js"></script>
+    <script src="/libs/url.js"></script>
+    <script src="/admin/js/drawer.js"></script>
+    <script src="/admin/js/Product2_new.js"></script>
+</body>
+
+</html>

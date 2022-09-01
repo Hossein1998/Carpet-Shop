@@ -1,0 +1,153 @@
+@import "./../base2";
+.HeaderOfPage1_div {
+  background-color: #00af80;
+  color: white;
+  opacity: 0.5;
+}
+.HeaderOfPage2_div {
+  background-color: #00af80;
+  color: white;
+}
+.enterbutton {
+  margin-top: 60px;
+  text-decoration: none;
+  text-align: center;
+  width: 40%;
+  height: 100px;
+  font-size: 23px;
+  height: 60px;
+  color: $white;
+  background-color: #00af80;
+  border: none;
+  align-items: center;
+  border-radius: 5px;
+
+  &.enterbutton:hover,
+  :focus {
+    color: $white;
+    border: none;
+  }
+  @media (max-width: 767px) {
+    font-size: 23px;
+    height: 60px;
+    margin-top: 25px;
+  }
+  @media (max-width: 767px) {
+    width: 87%;
+  }
+}
+.preview2 {
+  width: 100%;
+  height: 205px;
+  border: none;
+  cursor: pointer;
+  @media (min-width: 300px) and (max-width: 400px) {
+    height: 190px;
+  }
+  @media (min-width: 992px) {
+    height: 220px;
+  }
+}
+.preview3 {
+  width: 100%;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  @media (min-width: 300px) and (max-width: 400px) {
+    height: 100px;
+  }
+  @media (min-width: 992px) {
+    height: 106px;
+  }
+}
+.preview4 {
+  width: 100%;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  @media (min-width: 300px) and (max-width: 400px) {
+    height: 85px;
+  }
+  @media (min-width: 992px) {
+    height: 108px;
+  }
+}
+
+#upload1 {
+  display: none;
+  top: 1%;
+}
+#upload2 {
+  display: none;
+  top: 1%;
+}
+#upload3 {
+  display: none;
+  top: 1%;
+}
+
+.plus_icon {
+  width: 35px;
+  height: 35px;
+  @media (max-width: 1380px) {
+    width: 24px;
+    height: 24px;
+  }
+}
+// popup
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 0 auto;
+  top: 35%;
+  padding: 13px;
+  background: #fff;
+  border-radius: 5px;
+  width: 25%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup .content {
+  max-height: 50%;
+  overflow: auto;
+  color: #000;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%;
+  }
+
+  .popup {
+    width: 70%;
+  }
+}

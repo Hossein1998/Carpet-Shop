@@ -1,0 +1,509 @@
+body {
+  background-color: #fafafa;
+  background-size: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("../../fonts/IRANYekanRegular.ttf");
+}
+
+a {
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "MyFont";
+}
+
+.font {
+  font-size: 18px !important;
+}
+
+@media (max-width: 1600px) {
+  .font {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .font {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 996px) {
+  .font {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .font {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font {
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font {
+    font-size: 7px !important;
+  }
+}
+
+.font-x {
+  font-size: 18px !important;
+}
+
+@media (max-width: 1600px) {
+  .font-x {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .font-x {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .font-x {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .font-x {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .font-x {
+    padding: 3px !important;
+    font-size: 12px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-x {
+    padding: 3px !important;
+    font-size: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .font-x {
+    padding: 3px !important;
+    font-size: 8px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font-x {
+    padding: 2px !important;
+    font-size: 6px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-x {
+    padding: 2px !important;
+    font-size: 5px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font-bx {
+    padding: 2px !important;
+    font-size: 8px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-bx {
+    padding: 2px !important;
+    font-size: 8px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.font-b {
+  font-size: 18px !important;
+}
+
+@media (max-width: 1600px) {
+  .font-b {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .font-b {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 14px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 13px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 12px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-b {
+    padding: 15px !important;
+    font-size: 8px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.font-p {
+  font-size: 14px !important;
+}
+
+@media (max-width: 1600px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 1472px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 1371px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .font-p {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .font-p {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-p {
+    font-size: 10px !important;
+  }
+}
+
+.bgc-footer {
+  background-color: #004b7d;
+}
+
+@media (max-width: 450px) {
+  .font-b-sdf {
+    padding: 15px !important;
+    font-size: 11px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+.input-group {
+  border: none !important;
+  background-color: #eeeeee;
+  -webkit-box-shadow: 1px 1px 1px 1px #eaeaea;
+          box-shadow: 1px 1px 1px 1px #eaeaea;
+  border-radius: 10px;
+}
+
+.search_input {
+  border: none !important;
+  background-color: #eeeeee;
+  width: 80% !important;
+  padding-right: 10px;
+}
+
+.Search_Icon {
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+}
+
+@media (max-width: 390px) {
+  .Search_Icon {
+    width: 22px;
+    height: 22px;
+    margin-top: 15px;
+  }
+}
+
+.header_txt {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .header_txt {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header_txt {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .header_txt {
+    font-size: 0.7rem;
+    margin: 10px;
+  }
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.footer_txt {
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 130px;
+}
+
+@media (max-width: 768px) {
+  .footer_txt {
+    margin-right: 50px;
+  }
+}
+
+.font-article-footer-t {
+  font-size: 15;
+}
+
+@media (max-width: 992px) {
+  .font-article-footer-t {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-article-footer-t {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-article-footer-t {
+    font-size: 10px;
+  }
+}
+
+.font-list {
+  font-size: 17px !important;
+}
+
+@media (max-width: 1472px) {
+  .font-list {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-list {
+    font-size: 17px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .font-list {
+    font-size: 16px !important;
+  }
+}
+
+.main-mobail-pt {
+  padding-top: 50px;
+}
+
+@media (min-width: 991px) {
+  .main-mobail-pt {
+    padding-top: 5px;
+  }
+}
+
+.fiexd-form {
+  width: 620px;
+  margin-right: 300px !important;
+}
+
+@media (min-width: 767px) {
+  .fiexd-form {
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .width-fixed {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .width-fixed {
+    width: 100% !important;
+  }
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.custom-file-input::before {
+  content: "Select some files";
+  display: inline-block;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#e3e3e3));
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+.custom-file-input:hover::before {
+  border-color: black;
+}
+
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.btn-submit {
+  width: 35%;
+}
+
+@media (max-width: 700px) {
+  .btn-submit {
+    width: 100% !important;
+  }
+}
+
+.preview {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f6f5f5;
+  cursor: pointer;
+}
+
+#upload {
+  display: none;
+  top: 1%;
+}
+
+.form-pt-f {
+  padding-top: 25px;
+}
+
+.form-item-fader-1 {
+  border-radius: 1px;
+  margin-right: 40px;
+}
+
+.form-control {
+  height: 55px;
+  border-radius: 1px;
+  border: 1px solid #a8a8a8 !important;
+}
+
+.submit-btn {
+  font-size: 16px;
+  background-color: #004b7d;
+  border-radius: 1px !important;
+}
+
+.not-submit {
+  font-size: 16px;
+  background-color: transparent;
+  border-radius: 1px !important;
+  border: 2px solid #004b7d;
+  color: #004b7d;
+}
+/*# sourceMappingURL=account_admin.css.map */

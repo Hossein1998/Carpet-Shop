@@ -1,0 +1,82 @@
+@import "../base";
+
+.w-f-t {
+  width: 100%;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
+}
+.www {
+  width: 23% !important;
+  top: 27%;
+  right: 40%;
+
+  @media (max-width: 1200px) {
+    width: 35% !important;
+    top: 27%;
+    right: 35%;
+  }
+  @media (max-width: 1000px) {
+    width: 40% !important;
+    top: 27%;
+    right: 30%;
+  }
+  @media (max-width: 800px) {
+    width: 50% !important;
+    top: 27%;
+    right: 20%;
+  }
+  @media (max-width: 500px) {
+    width: 92% !important;
+    top: 27%;
+    right: 4%;
+  }
+}
+
+.font-tickets {
+  @media (max-width: 1300px) {
+    font-size: 14px;
+  }
+  @media (max-width: 1350px) {
+    font-size: 13px;
+  }
+  @media (max-width: 860px) {
+    font-size: 12px;
+  }
+  @media (max-width: 460px) {
+    font-size: 10px;
+  }
+}
+
+.img-t-f {
+  width: 36px;
+  @media (max-width: 700px) {
+    width: 27px;
+  }
+}
+.popup-b {
+  background-color: $yellow-text;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-radius: 1px;
+}
+
+.bgc {
+  background-color: $admin_blue;
+}
+
+.BGC-U {
+  background-color: $yellow-text !important;
+}
+
+.buton {
+  background-color: $admin_blue;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-radius: 1px;
+}

@@ -1,0 +1,392 @@
+<html lang="fa-ir" dir="rtl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- bootstrap-drawer -->
+	<link rel="stylesheet" href="dist/css/bootstrap-drawer.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="styles/css/Nav_Bar.css">
+	<link rel="stylesheet" href="styles/css/User_Shop.css">
+
+	<title>Document</title>
+</head>
+
+<body>
+	<!-- header -->
+	<header class="d-flex flex-column">
+		<!-- navbar -->
+		<nav
+			class="navbar navbar-expand-lg d-flex justify-content-between bg-white shadow c-container align-items-center">
+
+
+			<!-- nav icon -->
+			<div class="row w-100 no-gutters">
+				<!-- nav icon -->
+				<!-- <ul class="col-2 p-2 invisible d-flex justify-content-start align-items-start d-lg-none  ">
+						<img src="image/nav-icon.png" class="drawer-img" data-toggle="drawer" data-target="#drawer-1"
+							alt="nav-icon">
+					</ul> -->
+				<!-- end nav icon -->
+				<div class="col-3 col-lg-3 justify-content-center d-none d-lg-flex align-items-center">
+					<!-- logo -->
+					<img src="image/فرش عاطفی@2x.png" class="mx-auto w-50 h-50" alt="logo">
+					<!-- end logo -->
+				</div>
+
+				<div class="col-10 col-lg-6">
+					<!-- search -->
+					<div class="d-flex w-100 flex-column">
+						<div class="input-group  w-100">
+							<span class="pt-1 pr-2">
+								<img src="./image/search.png" alt="icon" class="Search_Icon text-center">
+							</span>
+							<input type="text" class="search_input" class="pr-5" placeholder="جست و جو در محصولات" />
+						</div>
+
+						<div class="d-none d-lg-flex w-100 justify-content-between mt-4">
+							<h5 class="header_txt text-nowrap text-secondary">خانه</h5>
+							<h5 class="header_txt text-nowrap text-secondary">دسته بندی</h5>
+							<h5 class="header_txt text-nowrap text-secondary">درباره ما</h5>
+							<h5 class="header_txt text-nowrap text-secondary">تماس با ما</h5>
+							<h5 class="header_txt text-nowrap text-secondary"> فروشنده شو </h5>
+						</div>
+					</div>
+					<!-- end search -->
+				</div>
+
+				<div class="col-2 pt-3 col-lg-3">
+					<!-- option icon -->
+					<ul class="d-flex align-items-center justify-content-center">
+						<li class="costom-ml"><img src="image/user@2x.png" class="option-img-1" alt="user"></li>
+						<li class="costom-ml"><img src="image/shopping-cart@2x.png" class="option-img" alt="shop"></li>
+					</ul>
+					<!-- end option icon -->
+				</div>
+
+				<div class="col-12 d-flex d-lg-none justify-content-around mt-4">
+					<h5 class="header_txt text-nowrap text-secondary">خانه</h5>
+					<h5 class="header_txt text-nowrap text-secondary">دسته بندی</h5>
+					<h5 class="header_txt text-nowrap text-secondary">درباره ما</h5>
+					<h5 class="header_txt text-nowrap text-secondary">تماس با ما</h5>
+					<h5 class="header_txt text-nowrap text-secondary"> فروشنده شو </h5>
+				</div>
+
+			</div>
+		</nav>
+		<!-- navbar -->
+	</header>
+	<!-- end header -->
+
+	<main class="d-flex c-container">
+		<!-- filter -->
+		<div class="d-flex flex-column w-100 mt-5 width--f pl-3 pl-lg-1">
+
+			<!-- set price -->
+			<div class="d-flex mt-2 text-nowrap mb-2 mx-auto fofont">
+				فیلتر بر اساس قیمت
+			</div>
+			<div class="row w-100 align-items-center flex-column ">
+				<div class="m-2 w-100" style="border: solid 1px #e9e9e9e9;">
+					<input type="tel" class="bg-white border-0 w-100 p-2 text-center w-100 price"
+						placeholder="بیشترین قیمت">
+				</div>
+				<span class="m-2">تا</span>
+				<div class="m-2 w-100" style="border: solid 1px #e9e9e9e9;">
+					<input type="tel" class="bg-white border-0 w-100 p-2 text-center w-100 price"
+						placeholder="کم ترین قیمت">
+				</div>
+				<div class="m-3 d-flex justify-content-center w-100 mx-auto">
+					<button class="btn w-75 text-white" style="background-color: #004b7d;">
+						اعمال
+					</button>
+				</div>
+			</div>
+			<!-- end set price -->
+
+			<!-- set catagoury -->
+			<div class="mt-4 mb-4 d-flex fofont">فیلتر بر اساس برند</div>
+			<div class="">
+				<label class="container d-flex">
+
+					<input type="checkbox" checked="checked">
+					<span class="checkmark position-relative"></span>
+					<span class="pr-2 pr-md-4 fo-font text-nowrap">
+						غدیری
+					</span>
+				</label>
+
+				<label class="container d-flex">
+
+					<input type="checkbox">
+					<span class="checkmark position-relative"></span>
+					<span class="pr-1 pr-sm-2 pr-md-4 fo-font text-nowrap">
+						محسن
+					</span>
+				</label>
+
+				<label class="container d-flex">
+
+					<input type="checkbox">
+					<span class="checkmark position-relative"></span>
+					<span class="pr-1 pr-sm-2 pr-md-4 fo-font text-nowrap">
+						محسن
+					</span>
+				</label>
+			</div>
+			<!-- end set catagoury -->
+
+		</div>
+		<!-- end filter -->
+
+
+		<div class="d-flex w-100 flex-column mt-4">
+			<div class="row w-100 justify-content-start mr-lg-0 ">
+				<div class="col-12 p-0 mb-3 d-flex align-items-center">
+					<div class="select  border shadow ">
+						<select name="slct" id="slct">
+							<option selected disabled>مرتب کردن بر اساس</option>
+							<option value="1">Pure CSS</option>
+							<option value="2">No JS</option>
+							<option value="3">Nice!</option>
+						</select>
+					</div>
+				</div>
+				<!-- single commodity-->
+				<div class="d-flex flex-column  p-2 col-12 col-md-6 col-lg-4 col-xl-3">
+					<div class="shadow" style="border: 2px solid #e7e6e7; border-radius: 5px;">
+						<!-- img commodity -->
+						<div class="pl-2 pr-2 bg-white pt-3 pb-2 ">
+							<img src="image/carpet_PNG57690@2x.png" style="width: 100%;" alt="carpet_PNG">
+							<div
+								class="takhfif-u text-white d-flex justify-content-center align-items-center position-absolute">
+								10%</div>
+
+						</div>
+						<!-- img commodity -->
+
+						<!-- main context -->
+
+						<div class="d-flex flex-column bg-white font-set-c">
+							<span class="mt-2 text-center text-nowrap">برنج محسن</span>
+							<div class="d-flex">
+								<span class="pt-3 text-right pr-3 text-nowrap">فروشنده :</span>
+								<span class="pt-3 text-right pr-1 text-nowrap">غدیری</span>
+							</div>
+							<del class="pl-2 font-p text-danger font-b-sdfd">5,500,000 تومان</del>
+							<div class="d-flex justify-content-between mt-2 pb-3 pr-2 pr-md-3 pl-1">
+								<span class="font-p font-b-sdfd text-nowrap">5 عدد</span>
+								<span class="font-p font-b-sdfd text-nowrap">5,400,000 تومان</span>
+							</div>
+
+						</div>
+						<!-- main context -->
+					</div>
+
+				</div>
+				<!-- end single commodity -->
+				<!-- single commodity-->
+				<div class="d-flex flex-column  p-2 col-12 col-md-6 col-lg-4 col-xl-3">
+					<div class="shadow" style="border: 2px solid #e7e6e7; border-radius: 5px;">
+						<!-- img commodity -->
+						<div class="pl-2 pr-2 bg-white pt-3 pb-2 ">
+							<img src="image/carpet_PNG57690@2x.png" style="width: 100%;" alt="carpet_PNG">
+							<div
+								class="takhfif-u text-white d-flex justify-content-center align-items-center position-absolute">
+								10%</div>
+
+						</div>
+						<!-- img commodity -->
+
+						<!-- main context -->
+
+						<div class="d-flex flex-column bg-white font-set-c">
+							<span class="mt-2 text-center text-nowrap">برنج محسن</span>
+							<div class="d-flex">
+								<span class="pt-3 text-right pr-3 text-nowrap">فروشنده :</span>
+								<span class="pt-3 text-right pr-1 text-nowrap">غدیری</span>
+							</div>
+							<del class="pl-2 font-p text-danger font-b-sdfd">5,500,000 تومان</del>
+							<div class="d-flex justify-content-between mt-2 pb-3 pr-2 pr-md-3 pl-1">
+								<span class="font-p font-b-sdfd text-nowrap">5 عدد</span>
+								<span class="font-p font-b-sdfd text-nowrap">5,400,000 تومان</span>
+							</div>
+
+						</div>
+						<!-- main context -->
+					</div>
+
+				</div>
+				<!-- end single commodity -->
+				<!-- single commodity-->
+				<div class="d-flex flex-column  p-2 col-12 col-md-6 col-lg-4 col-xl-3">
+					<div class="shadow" style="border: 2px solid #e7e6e7; border-radius: 5px;">
+						<!-- img commodity -->
+						<div class="pl-2 pr-2 bg-white pt-3 pb-2 ">
+							<img src="image/carpet_PNG57690@2x.png" style="width: 100%;" alt="carpet_PNG">
+							<div
+								class="takhfif-u text-white d-flex justify-content-center align-items-center position-absolute">
+								10%</div>
+
+						</div>
+						<!-- img commodity -->
+
+						<!-- main context -->
+
+						<div class="d-flex flex-column bg-white font-set-c">
+							<span class="mt-2 text-center text-nowrap">برنج محسن</span>
+							<div class="d-flex">
+								<span class="pt-3 text-right pr-3 text-nowrap">فروشنده :</span>
+								<span class="pt-3 text-right pr-1 text-nowrap">غدیری</span>
+							</div>
+							<del class="pl-2 font-p text-danger font-b-sdfd">5,500,000 تومان</del>
+							<div class="d-flex justify-content-between mt-2 pb-3 pr-2 pr-md-3 pl-1">
+								<span class="font-p font-b-sdfd text-nowrap">5 عدد</span>
+								<span class="font-p font-b-sdfd text-nowrap">5,400,000 تومان</span>
+							</div>
+
+						</div>
+						<!-- main context -->
+					</div>
+
+				</div>
+				<!-- end single commodity -->
+			</div>
+
+
+		</div>
+	</main>
+
+
+	<div class="w-100 d-flex justify-content-center mb-4 mt-2">
+		<a href="#" class="m-2 mt-4 d-flex justify-content-center align-items-center pageination"><img
+				src="image/back-1@2x.png" width="10px" alt="back"></a>
+		<a href="#" class="m-2 mt-4 d-flex justify-content-center align-items-center pageination">3</a>
+		<a href="#"
+			class="m-2 mt-4 d-flex justify-content-center align-items-center pageination pageination-page text-white">2</a>
+		<a href="#" class="m-2 mt-4 d-flex justify-content-center align-items-center pageination">1</a>
+		<a href="#" class="m-2 mt-4 d-flex justify-content-center align-items-center pageination"><img
+				src="image/back@2x.png" width="10px" alt="naxt"></a>
+	</div>
+
+	<!-- footer -->
+	<footer class="c-container pt-3 d-flex text-right" style="background-color: #cccccc;margin-bottom: 0 !important;">
+		<img src="image/فرش عاطفی-1@2x.png" class="logo-footer-width-f"
+			style="margin-top: 3.5rem;margin-bottom: 3.5rem;" alt="logo-footer">
+
+		<div class="d-flex flex-column">
+			<h5 class="footer_txt font-weight-bold" style="color: #004b7d;">خانه</h5>
+			<h5 class="footer_txt mt-2 mt-lg-3">فروشنده شو</h5>
+			<h5 class="footer_txt mt-2 mt-lg-3">درباره ما</h5>
+			<h5 class="footer_txt mt-2 mt-lg-3"> تماس با ما</h5>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+
+	<!-- Drawer -->
+	<div class="drawer drawer-right slide" tabindex="-1" role="dialog" aria-labelledby="drawer-1-title"
+		aria-hidden="true" id="drawer-1" style="border: none !important; width:260px;">
+		<div class="drawer-content drawer-content-scrollable" role="document" style="border: none !important;">
+			<div class="drawer-body text-center mt-2 m-0 p-0">
+				<ul class="navbar-nav">
+					<li class="nav-item ml-5"><a href="#" class="nav-link navbar-color text-nowrap"
+							style=" margin-left: 1rem;">خانه</a></li>
+					<li class="nav-item ml-5"><a href="#" class="nav-link navbar-color text-nowrap">فرش دستی</a></li>
+					<li class="nav-item ml-5"><a href="#" class="nav-link navbar-color text-nowrap">فرش ماشینی</a></li>
+					<li class="nav-item ml-5"><a href="#" class="nav-link navbar-color text-nowrap">تابلو فرش</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- end Drawer -->
+
+	<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+	<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<script src="./dist/js/bootstrap-drawer.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+	<script>
+		$(".fofo").addClass("d-none");
+
+		NodeList.prototype.forEach = HTMLCollection.prototype.forEach = Array.prototype.forEach;
+		document.querySelectorAll('#Ffofo').forEach(function (foo) {
+
+			foo.addEventListener('mouseenter', function () {
+				foo.querySelector('.fofo').classList.add("d-flex");
+				foo.classList.add("b-sh-set");
+			});
+
+			foo.addEventListener('mouseleave', function () {
+				foo.querySelector('.fofo').classList.remove("d-flex");
+				foo.classList.remove("b-sh-set");
+			});
+
+		});
+
+	</script>
+	<script>
+
+
+
+		// document.body.style.zoom = "90%";
+		// set profile image
+		$(".preview").click(function () {
+			$("#upload").click();
+		});
+
+		$("#upload").change(function () {
+			preview(this);
+		});
+
+		function preview(input) {
+			if (input.files && input.files[0]) {
+				var reader = new FileReader();
+				reader.onload = function (e) {
+					$('.preview').attr('src', e.target.result);
+				};
+				reader.readAsDataURL(input.files[0]);
+			}
+		}
+
+		//end set profile image
+
+		// drawer
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-36251023-1']);
+		_gaq.push(['_setDomainName', 'jqueryscript.net']);
+		_gaq.push(['_trackPageview']);
+
+		(function () {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-36251023-1']);
+		_gaq.push(['_setDomainName', 'jqueryscript.net']);
+		_gaq.push(['_trackPageview']);
+
+		(function () {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		// end drawer
+
+		NodeList.prototype.forEach = HTMLCollection.prototype.forEach = Array.prototype.forEach; document.querySelectorAll('.foo').forEach(function (foo) {
+			var input = foo.querySelector("input");
+			foo.querySelector('.plus').addEventListener('click', function () { input.value = parseInt(input.value) + 1 });
+			foo.querySelector('.mines').addEventListener('click', function () { input.value = parseInt(input.value) <= 0 ? input.value : parseInt(input.value) - 1 });
+		});
+	</script>
+
+</body>
+
+</html>

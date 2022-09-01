@@ -1,0 +1,751 @@
+<html lang="fa-ir" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.1/css/dropify.min.css">
+    <!-- main csss -->
+    <link rel="stylesheet" href="styles/css/User_Shop.css">
+    <link rel="stylesheet" href="styles/css/Nav_Bar.css">
+    <link rel="stylesheet" href="styles/css/Home.css">
+    <link rel="stylesheet" href="/styles/css/test2.css">
+
+
+
+
+    <link rel="manifest" href="manifest.json?v=1.4">
+    <meta name="theme-color" content="#004b7d">
+    <link rel="icon" type="image/png" sizes="192x192" href="/aks-192.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/aks-96.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/aks-48.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#004b7d">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Packt PWA">
+    <link rel="apple-touch-startup-image" href="/image/icon/aks-512.png">
+    <link rel="apple-touch-icon" sizes="48x48" href="/image/icon/aks-48.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="/image/icon/aks-96.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/image/icon/aks-144.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/image/icon/aks-192.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="/image/icon/aks-256.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/image/icon/aks-512.png">
+    <meta name="msapplication-TileImage" content="/image/icon/aks-144.png">
+    <meta name="msapplication-TileColor" content="#fff">
+
+
+    <title>فروشگاه اینترنتی | صفحه اصلی</title>
+
+
+    <style>
+        #idtag1 {
+
+            display: none;
+        }
+    </style>
+
+    <style>
+        #idtag2 {
+
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="d-flex flex-column">
+        <!-- navbar -->
+        <nav
+            class="navbar pt-4 pt-lg-3 navbar-expand-lg d-flex justify-content-between bg-white shadow c-container align-items-center">
+            <!-- nav icon -->
+            <div class="row w-100 no-gutters">
+
+                <div class="col-3 col-lg-3 justify-content-center d-none d-lg-flex align-items-center">
+                    <!-- logo -->
+                    <img src="/image/فرش عاطفی@2x.png" class="mx-auto w-50 h-50" alt="logo">
+                    <!-- end logo -->
+                </div>
+
+                <div class="col-10 col-lg-6">
+                    <!-- search -->
+                    <div class="d-flex w-100 flex-column">
+                        <div class="input-group  w-100">
+                            <span class="pt-1 pr-2">
+                                <img src="/image/search.png" alt="icon" class="Search_Icon text-center">
+                            </span>
+                            <input type="text" class="search_input" class="pr-5" placeholder="جست و جو در محصولات" />
+                        </div>
+
+                        <div class="d-none d-lg-flex w-100 justify-content-between mt-4">
+                            <h5 id="d1" class="header_txt text-nowrap text-secondary">خانه</h5>
+                            <h5 id="d2" class="header_txt text-nowrap text-secondary">دسته بندی</h5>
+                            <h5 id="d3" class="header_txt text-nowrap text-secondary">درباره ما</h5>
+                            <h5 id="d4" class="header_txt text-nowrap text-secondary">تماس با ما</h5>
+                            <h5 id="d5" class="header_txt text-nowrap text-secondary"> فروشنده شو </h5>
+                        </div>
+                    </div>
+                    <!-- end search -->
+                </div>
+
+                <div class="col-2 pt-3 col-lg-3">
+                    <!-- option icon -->
+                    <ul class="d-flex align-items-center justify-content-center">
+                        <li class="costom-ml">
+                            <a id="loginbtn">
+                                <img src="image/user@2x.png" class="option-img-1" alt="user">
+                            </a>
+                        </li>
+                        <li class="costom-ml">
+                            <a id="bagbtn">
+                                <img src="image/shopping-cart@2x.png" class="option-img" alt="shop">
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- end option icon -->
+                </div>
+
+                <div class="col-12 d-flex d-lg-none justify-content-around mt-4">
+                    <h5 id="m1" class="header_txt text-nowrap text-secondary">خانه</h5>
+                    <h5 id="m2" class="header_txt text-nowrap text-secondary">دسته بندی</h5>
+                    <h5 id="m3" class="header_txt text-nowrap text-secondary">درباره ما</h5>
+                    <h5 id="m4" class="header_txt text-nowrap text-secondary">تماس با ما</h5>
+                    <h5 id="m5" class="header_txt text-nowrap text-secondary"> فروشنده شو </h5>
+                </div>
+
+            </div>
+        </nav>
+        <!-- navbar -->
+    </header>
+    <!-- end header -->
+
+
+
+
+    <!-- slider -->
+    <div class="container-fluid">
+        <div class="row row_slider">
+            <div class="wrapper overflow-hidden m-0">
+                <div class="carousel m-0">
+                    <div class="inner">
+                        <div class="slide active">
+                        </div>
+                        <div class="slide">
+                        </div>
+                        <div class="slide">
+                        </div>
+                    </div>
+                    <div class="arrow arrow-left"></div>
+                    <div class="arrow arrow-right"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end slider -->
+
+    <!-- title for all connodities -->
+    <div class="d-flex align-items-center flex-column justify-content-center pr-4 pl-4 mt-3 pt-lg-4">
+        <div class="d-flex w-100 justify-content-center align-items-center" style="background-color: #004b7d;">
+
+            <h2 class="mt-2 text-center text-white all-commodity-f">
+                محصولات تخفیفی
+            </h2>
+
+        </div>
+
+    </div>
+    <!-- end title for all connodities -->
+
+    <!-- محصولات تخفیفی -->
+    <div id="test-commodity-1" class="c-container">
+        <div class="swiper-container">
+            <div id="row1" class="swiper-wrapper m-0">
+
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </div>
+    <!-- پایان محصولات تخفیفی -->
+
+
+    <!-- banner -->
+    <div class="container-fluid">
+        <div class="row  pl-3 pr-3">
+            <div class="col-12 col-lg-6 mb-3 rounded mx-auto wb-bg-banner1 overflow-hidden">
+                <!-- <img class="  mx-auto"
+                    src="https://dkstatics-public.digikala.com/digikala-adservice-banners/c68ec3ece769466e06a2c74d799cf77c5bf11361_1603201137.gif"
+                    alt="image"> -->
+            </div>
+            <div class="col-12 col-lg-6 rounded wb-bg-banner2 mx-auto overflow-hidden">
+                <!-- <img class=" mx-auto"
+                    src="https://dkstatics-public.digikala.com/digikala-adservice-banners/206200d0dc74a0dd97231f8f76902d90d9f70c11_1602880211.jpg?x-oss-process=image/quality,q_80"
+                    alt="image"> -->
+            </div>
+        </div>
+    </div>
+    <!-- end banner -->
+
+
+    <!-- title for all connodities -->
+    <div class="d-flex align-items-center flex-column justify-content-center pr-4 pl-4 mt-3 pt-lg-4">
+        <div class="d-flex w-100 justify-content-center align-items-center" style="background-color: #004b7d;">
+
+            <h2 class="mt-2 text-center text-white all-commodity-f">
+                همه محصولات
+            </h2>
+
+        </div>
+
+    </div>
+    <!-- end title for all connodities -->
+
+    <!-- محصولات پرفروش -->
+    <div id="test-commodity-1" class="c-container">
+        <div class="swiper-container">
+            <div id="row2" class="swiper-wrapper m-0">
+
+
+
+
+
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </div>
+    <!-- پایان محصولات پرفروش -->
+
+
+    <div class="container-fluid overflow-hidden">
+        <div class="row pb-4" style="background-color: #004b7d;">
+            <div class="col-12">
+                <h5 class="text-center text-white p-3">درباره ما</h5>
+            </div>
+            <div class="col-12">
+                <p class="text-center text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+                    quis eos nihil fuga deserunt non
+                    fugit facilis sunt veritatis fugiat amet cum, omnis impedit rem unde eligendi voluptate itaque!
+                    Numquam earum quia vero ratione nobis sunt quidem exercitationem dolorem dolore, eligendi inventore
+                    expedita et doloribus consectetur distinctio debitis, optio quibusdam?</p>
+            </div>
+
+            <div class="col-6 col-lg-3 d-flex flex-column justify-content-center">
+                <div
+                    class="pt-4 bgc-1 mt-3 mx-auto text-center text-primary d-flex justify-content-center align-content-center">
+                    ویژگی</div>
+
+            </div>
+            <div class="col-6 col-lg-3 d-flex flex-column justify-content-center">
+                <div
+                    class="pt-4 bgc-1 mt-3 mx-auto text-center text-primary d-flex justify-content-center align-content-center">
+                    ویژگی</div>
+
+            </div>
+            <div class="col-6 col-lg-3 d-flex flex-column justify-content-center">
+                <div
+                    class="pt-4 bgc-1  mt-3 mx-auto text-center text-primary d-flex justify-content-center align-content-center">
+                    ویژگی</div>
+
+            </div>
+            <div class="col-6 col-lg-3 d-flex flex-column justify-content-center">
+                <div
+                    class="pt-4 bgc-1  mt-3 mx-auto text-center text-primary d-flex justify-content-center align-content-center">
+                    ویژگی</div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer -->
+    <footer class="c-container pt-3 d-flex text-right" style="background-color: #cccccc;margin-bottom: 0 !important;">
+        <img src="image/فرش عاطفی-1@2x.png" class="logo-footer-width-f"
+            style="margin-top: 3.5rem;margin-bottom: 3.5rem;" alt="logo-footer">
+
+        <div class="d-flex flex-column">
+            <h5 class="footer_txt font-weight-bold" style="color: #004b7d;">خانه</h5>
+            <h5 class="footer_txt mt-2 mt-lg-3">فروشنده شو</h5>
+            <h5 class="footer_txt mt-2 mt-lg-3">درباره ما</h5>
+            <h5 class="footer_txt mt-2 mt-lg-3"> تماس با ما</h5>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.1/js/dropify.min.js"></script>
+
+
+
+    <script>
+
+
+        $(document).ready(function () {
+
+            ConvertNumberToPersion();
+        });
+
+        function ConvertNumberToPersion() {
+            persian = { 0: '۰', 1: '۱', 2: '۲', 3: '۳', 4: '۴', 5: '۵', 6: '۶', 7: '۷', 8: '۸', 9: '۹' };
+            function traverse(el) {
+                if (el.nodeType == 3) {
+                    var list = el.data.match(/[0-9]/g);
+                    if (list != null && list.length != 0) {
+                        for (var i = 0; i < list.length; i++)
+                            el.data = el.data.replace(list[i], persian[list[i]]);
+                    }
+                }
+                for (var i = 0; i < el.childNodes.length; i++) {
+                    traverse(el.childNodes[i]);
+                }
+            }
+            traverse(document.body);
+        }
+
+    </script>
+
+
+    <!-- slider -->
+    <script>
+        ; (function (factory) {
+
+            if (typeof define === 'function' && define.amd) {
+                define(['jquery'], factory);
+            } else if (typeof exports !== 'undefined') {
+                module.exports = factory(require('jquery'));
+            } else {
+                factory(jQuery);
+            }
+
+        })(function ($) {
+
+
+            var Zippy = (function (element, settings) {
+
+                var instanceUid = 0;
+
+                function _Zippy(element, settings) {
+                    this.defaults = {
+                        slideDuration: '3000',
+                        speed: 500,
+                        arrowRight: '.arrow-right',
+                        arrowLeft: '.arrow-left'
+                    };
+
+                    // We create a new property to hold our default settings after they
+                    // have been merged with user supplied settings
+                    this.settings = $.extend({}, this, this.defaults, settings);
+
+                    // This object holds values that will change as the plugin operates
+                    this.initials = {
+                        currSlide: 0,
+                        $currSlide: null,
+                        totalSlides: false,
+                        csstransitions: false
+                    };
+
+                    // Attaches the properties of this.initials as direct properties of Zippy
+                    $.extend(this, this.initials);
+
+                    // Here we'll hold a reference to the DOM element passed in
+                    // by the $.each function when this plugin was instantiated
+                    this.$el = $(element);
+
+                    // Ensure that the value of 'this' always references Zippy
+                    this.changeSlide = $.proxy(this.changeSlide, this);
+
+                    // We'll call our initiator function to get things rolling!
+                    this.init();
+
+                    // A little bit of metadata about the instantiated object
+                    // This property will be incremented everytime a new Zippy carousel is created
+                    // It provides each carousel with a unique ID
+                    this.instanceUid = instanceUid++;
+                }
+
+                return _Zippy;
+
+            })();
+
+            /**
+               * Called once per instance
+               * Calls starter methods and associate the '.zippy-carousel' class
+               * @params void
+               * @returns void
+               *
+               */
+            Zippy.prototype.init = function () {
+                //Test to see if cssanimations are available
+                this.csstransitionsTest();
+                // Add a class so we can style our carousel
+                this.$el.addClass('zippy-carousel');
+                // Build out any DOM elements needed for the plugin to run
+                // Eg, we'll create an indicator dot for every slide in the carousel
+                this.build();
+                // Eg. Let the user click next/prev arrows or indicator dots
+                this.events();
+                // Bind any events we'll need for the carousel to function
+                this.activate();
+                // Start the timer loop to control progression to the next slide
+                this.initTimer();
+            };
+
+            /**
+             * Appropriated out of Modernizr v2.8.3
+             * Creates a new DOM element and tests existence of properties on it's
+             * Style object to see if CSSTransitions are available
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.csstransitionsTest = function () {
+                var elem = document.createElement('modernizr');
+                //A list of properties to test for
+                var props = ["transition", "WebkitTransition", "MozTransition", "OTransition", "msTransition"];
+                //Iterate through our new element's Style property to see if these properties exist
+                for (var i in props) {
+                    var prop = props[i];
+                    var result = elem.style[prop] !== undefined ? prop : false;
+                    if (result) {
+                        this.csstransitions = result;
+                        break;
+                    }
+                }
+            };
+
+            /**
+             * Add the CSSTransition duration to the DOM Object's Style property
+             * We trigger this function just before we want the slides to animate
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.addCSSDuration = function () {
+                var _ = this;
+                this.$el.find('.slide').each(function () {
+                    this.style[_.csstransitions + 'Duration'] = _.settings.speed + 'ms';
+                });
+            }
+
+            /**
+           * Remove the CSSTransition duration from the DOM Object's style property
+           * We trigger this function just after the slides have animated
+           * @params void
+           * @returns void
+           *
+           */
+            Zippy.prototype.removeCSSDuration = function () {
+                var _ = this;
+                this.$el.find('.slide').each(function () {
+                    this.style[_.csstransitions + 'Duration'] = '';
+                });
+            }
+
+            /**
+             * Creates a list of indicators based on the amount of slides
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.build = function () {
+                var $indicators = this.$el.append('<ul class="indicators" >').find('.indicators');
+                this.totalSlides = this.$el.find('.slide').length;
+                for (var i = 0; i < this.totalSlides; i++) $indicators.append('<li data-index=' + i + '>');
+            };
+
+            /**
+             * Activates the first slide
+             * Activates the first indicator
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.activate = function () {
+                this.$currSlide = this.$el.find('.slide').eq(0);
+                this.$el.find('.indicators li').eq(0).addClass('active');
+            };
+
+            /**
+           * Associate event handlers to events
+           * For arrow events, we send the placement of the next slide to the handler
+           * @params void
+           * @returns void
+           *
+           */
+            Zippy.prototype.events = function () {
+                $('body')
+                    .on('click', this.settings.arrowRight, { direction: 'right' }, this.changeSlide)
+                    .on('click', this.settings.arrowLeft, { direction: 'left' }, this.changeSlide)
+                    .on('click', '.indicators li', this.changeSlide);
+            };
+
+            /**
+             * TIMER
+             * Resets the timer
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.clearTimer = function () {
+                if (this.timer) clearInterval(this.timer);
+            };
+
+            /**
+             * TIMER
+             * Initialise the timer
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.initTimer = function () {
+                this.timer = setInterval(this.changeSlide, this.settings.slideDuration);
+            };
+
+            /**
+             * TIMER
+             * Start the timer
+             * Reset the throttle to allow changeSlide to be executable
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.startTimer = function () {
+                this.initTimer();
+                this.throttle = false;
+            };
+
+            /**
+             * MAIN LOGIC HANDLER
+             * Triggers a set of subfunctions to carry out the animation
+             * @params	object	event
+             * @returns void
+             *
+             */
+            Zippy.prototype.changeSlide = function (e) {
+                //Ensure that animations are triggered one at a time
+                if (this.throttle) return;
+                this.throttle = true;
+
+                //Stop the timer as the animation is getting carried out
+                this.clearTimer();
+
+                // Returns the animation direction (left or right)
+                var direction = this._direction(e);
+
+                // Selects the next slide
+                var animate = this._next(e, direction);
+                if (!animate) return;
+
+                //Active the next slide to scroll into view
+                var $nextSlide = this.$el.find('.slide').eq(this.currSlide).addClass(direction + ' active');
+
+                if (!this.csstransitions) {
+                    this._jsAnimation($nextSlide, direction);
+                } else {
+                    this._cssAnimation($nextSlide, direction);
+                }
+            };
+
+            /**
+             * Returns the animation direction, right or left
+             * @params	object	event
+             * @returns strong	animation direction
+             *
+             */
+            Zippy.prototype._direction = function (e) {
+                var direction;
+
+                // Default to forward movement
+                if (typeof e !== 'undefined') {
+                    direction = (typeof e.data === 'undefined' ? 'right' : e.data.direction);
+                } else {
+                    direction = 'right';
+                }
+                return direction;
+            };
+
+            /**
+             * Updates our plugin with the next slide number
+             * @params	object	event
+             * @params	string	animation direction
+             * @returns boolean continue to animate?
+             *
+             */
+            Zippy.prototype._next = function (e, direction) {
+
+                // If the event was triggered by a slide indicator, we store the data-index value of that indicator
+                var index = (typeof e !== 'undefined' ? $(e.currentTarget).data('index') : undefined);
+
+                //Logic for determining the next slide
+                switch (true) {
+                    //If the event was triggered by an indicator, we set the next slide based on index
+                    case (typeof index !== 'undefined'):
+                        if (this.currSlide == index) {
+                            this.startTimer();
+                            return false;
+                        }
+                        this.currSlide = index;
+                        break;
+                    case (direction == 'right' && this.currSlide < (this.totalSlides - 1)):
+                        this.currSlide++;
+                        break;
+                    case (direction == 'right'):
+                        this.currSlide = 0;
+                        break;
+                    case (direction == 'left' && this.currSlide === 0):
+                        this.currSlide = (this.totalSlides - 1);
+                        break;
+                    case (direction == 'left'):
+                        this.currSlide--;
+                        break;
+                }
+                return true;
+            };
+
+            /**
+             * Executes the animation via CSS transitions
+             * @params	object	Jquery object the next slide to slide into view
+             * @params	string	animation direction
+             * @returns void
+             *
+             */
+            Zippy.prototype._cssAnimation = function ($nextSlide, direction) {
+                //Init CSS transitions
+                setTimeout(function () {
+                    this.$el.addClass('transition');
+                    this.addCSSDuration();
+                    this.$currSlide.addClass('shift-' + direction);
+                }.bind(this), 100);
+
+                //CSS Animation Callback
+                //After the animation has played out, remove CSS transitions
+                //Remove unnecessary classes
+                //Start timer
+                setTimeout(function () {
+                    this.$el.removeClass('transition');
+                    this.removeCSSDuration();
+                    this.$currSlide.removeClass('active shift-left shift-right');
+                    this.$currSlide = $nextSlide.removeClass(direction);
+                    this._updateIndicators();
+                    this.startTimer();
+                }.bind(this), 100 + this.settings.speed);
+            };
+
+            /**
+             * Executes the animation via JS transitions
+             * @params	object	Jquery object the next slide to slide into view
+             * @params	string	animation direction
+             * @returns void
+             *
+             */
+            Zippy.prototype._jsAnimation = function ($nextSlide, direction) {
+                //Cache this reference for use inside animate functions
+                var _ = this;
+
+                // See CSS for explanation of .js-reset-left
+                if (direction == 'right') _.$currSlide.addClass('js-reset-left');
+
+                var animation = {};
+                animation[direction] = '0%';
+
+                var animationPrev = {};
+                animationPrev[direction] = '100%';
+
+                //Animation: Current slide
+                this.$currSlide.animate(animationPrev, this.settings.speed);
+
+                //Animation: Next slide
+                $nextSlide.animate(animation, this.settings.speed, 'swing', function () {
+                    //Get rid of any JS animation residue
+                    _.$currSlide.removeClass('active js-reset-left').attr('style', '');
+                    //Cache the next slide after classes and inline styles have been removed
+                    _.$currSlide = $nextSlide.removeClass(direction).attr('style', '');
+                    _._updateIndicators();
+                    _.startTimer();
+                });
+            };
+
+            /**
+               * Ensures the slide indicators are pointing to the currently active slide
+               * @params	void
+               * @returns	void
+               *
+               */
+            Zippy.prototype._updateIndicators = function () {
+                this.$el.find('.indicators li').removeClass('active').eq(this.currSlide).addClass('active');
+            };
+
+            /**
+             * Initialize the plugin once for each DOM object passed to jQuery
+             * @params	object	options object
+             * @returns void
+             *
+             */
+            $.fn.Zippy = function (options) {
+
+                return this.each(function (index, el) {
+
+                    el.Zippy = new Zippy(el, options);
+
+                });
+
+            };
+
+
+        });
+
+        // Custom options for the carousel
+        var args = {
+            arrowRight: '.arrow-right', //A jQuery reference to the right arrow
+            arrowLeft: '.arrow-left', //A jQuery reference to the left arrow
+            speed: 1000, //The speed of the animation (milliseconds)
+            slideDuration: 4000 //The amount of time between animations (milliseconds)
+        };
+
+        $('.carousel').Zippy(args);
+    </script>
+    <!-- end slider -->
+
+
+
+    <!-- Modal definition -->
+    <div id="ooo" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false"
+        style="background-color:#5f5a5a00;" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+        </div>
+        <div class="load " id="myModal3"></div>
+        <div class="wait " id="myModal14">لطفا صبر کنید ...</div>
+
+    </div>
+
+    <script src="/libs/jquery.js"></script>
+    <script src="/libs/url.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="/libs/persianumber.js"></script>
+    <script src="/libs/jQuery.persianNumbers-1.0.js"></script>
+    <script src="/libs/jQuery.persianNumbers-1.0.min.js"></script>
+    <script src="/user/js/sharebtn.js"></script>
+    <script src="/index.js"></script>
+
+
+
+
+
+</body>
+
+</html>

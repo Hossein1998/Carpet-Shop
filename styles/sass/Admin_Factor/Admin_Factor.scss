@@ -1,0 +1,21 @@
+@import "./../_base";
+
+.BGC{
+    background-color: $admin_blue;
+}
+.bgc-table-item{
+    background-color: $good_blue;
+}
+.back-btn{
+    background-color: #eeb63e;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    border-radius: 1px;
+}
+.takhfif{
+    width: 50px;
+    height: 50px;
+    top: 1rem;
+    right: 1rem;
+    background-color: $admin_blue !important;
+}

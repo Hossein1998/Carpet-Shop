@@ -1,0 +1,918 @@
+<html lang="fa-ir" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.1/css/dropify.min.css">
+    <!-- main csss -->
+    <link rel="stylesheet" href="styles/css/User_Shop.css">
+    <link rel="stylesheet" href="styles/css/Nav_Bar.css">
+    <link rel="stylesheet" href="styles/css/Home.css">
+
+    <title>خانه</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="d-flex flex-column">
+        <!-- navbar -->
+        <nav
+            class="navbar pt-4 pt-lg-3 navbar-expand-lg d-flex justify-content-between bg-white shadow c-container align-items-center">
+            <!-- nav icon -->
+            <div class="row w-100 no-gutters">
+
+                <div class="col-3 col-lg-3 justify-content-center d-none d-lg-flex align-items-center">
+                    <!-- logo -->
+                    <img src="image/فرش عاطفی@2x.png" class="mx-auto w-50 h-50" alt="logo">
+                    <!-- end logo -->
+                </div>
+
+                <div class="col-10 col-lg-6">
+                    <!-- search -->
+                    <div class="d-flex w-100 flex-column">
+                        <div class="input-group  w-100">
+                            <span class="pt-1 pr-2">
+                                <img src="./image/search.png" alt="icon" class="Search_Icon text-center">
+                            </span>
+                            <input type="text" class="search_input" class="pr-5" placeholder="جست و جو در محصولات" />
+                        </div>
+
+                        <div class="d-none d-lg-flex w-100 justify-content-between mt-4">
+                            <h5 class="header_txt text-nowrap text-secondary">خانه</h5>
+                            <h5 class="header_txt text-nowrap text-secondary">دسته بندی</h5>
+                            <h5 class="header_txt text-nowrap text-secondary">درباره ما</h5>
+                            <h5 class="header_txt text-nowrap text-secondary">تماس با ما</h5>
+                            <h5 class="header_txt text-nowrap text-secondary"> فروشنده شو </h5>
+                        </div>
+                    </div>
+                    <!-- end search -->
+                </div>
+
+                <div class="col-2 pt-3 col-lg-3">
+                    <!-- option icon -->
+                    <ul class="d-flex align-items-center justify-content-center">
+                        <li class="costom-ml">
+                            <a href="#">
+                                <img src="image/user@2x.png" class="option-img-1" alt="user">
+                            </a>
+                        </li>
+                        <li class="costom-ml">
+                            <a href="#">
+                                <img src="image/shopping-cart@2x.png" class="option-img" alt="shop">
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- end option icon -->
+                </div>
+
+                <div class="col-12 d-flex d-lg-none justify-content-around mt-4">
+                    <h5 class="header_txt text-nowrap text-secondary">خانه</h5>
+                    <h5 class="header_txt text-nowrap text-secondary">دسته بندی</h5>
+                    <h5 class="header_txt text-nowrap text-secondary">درباره ما</h5>
+                    <h5 class="header_txt text-nowrap text-secondary">تماس با ما</h5>
+                    <h5 class="header_txt text-nowrap text-secondary"> فروشنده شو </h5>
+                </div>
+
+            </div>
+        </nav>
+        <!-- navbar -->
+    </header>
+    <!-- end header -->
+
+
+    <!-- slider -->
+    <div class="container-fluid">
+        <div class="row row_slider">
+            <div class="wrapper overflow-hidden m-0">
+                <div class="carousel m-0">
+                    <div class="inner">
+                        <div class="slide active">
+                        </div>
+                        <div class="slide">
+                        </div>
+                        <div class="slide">
+                        </div>
+                    </div>
+                    <div class="arrow arrow-left"></div>
+                    <div class="arrow arrow-right"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end slider -->
+
+    <!-- title for all connodities -->
+    <div class="d-flex align-items-center flex-column justify-content-center pr-4 pl-4 mt-3 pt-lg-4">
+        <div class="d-flex w-100 justify-content-center align-items-center" style="background-color: #004b7d;">
+
+            <h2 class="mt-2 text-center text-white all-commodity-f">
+                محصولات تخفیفی
+            </h2>
+
+        </div>
+
+    </div>
+    <!-- end title for all connodities -->
+
+    <!-- محصولات تخفیفی -->
+    <div id="test-commodity-1" class="c-container">
+        <div class="swiper-container">
+            <div class="swiper-wrapper m-0">
+
+
+
+
+                <div class="swiper-slide m-2  rounded shadow p-2 d-flex flex-column p-lg-3">
+                    <!-- single commoditys -->
+                    <div
+                        class="takhfif-u text-white d-flex justify-content-center align-items-center position-absolute">
+                        10%</div>
+                    <div class="w-100 d-flex flex-column h-100 overflow-hidden">
+                        <ul id="idtag1">{{ID}}</ul>
+                        <div class="d-flex justify-content-center overflow-hidden"
+                            style="height: 70%; z-index: 1 !important;">
+                            <img class="mx-auto col-11 col-sm-6 col-lg-12" src="image/warning.png" alt="img"
+                                style="height: 90%; z-index: 1 !important;">
+                        </div>
+                        <div class="pl-1" style="height: 30%;">
+                            <span class="mt-2 text-dark text-center">برنج محسن</span>
+                            <div class="d-flex mt-1">
+                                <span class="pt-3 text-right pr-3">فروشنده :</span>
+                                <span class="pt-3 text-right pr-1">غدیری</span>
+                            </div>
+                            <div class="text-left">
+                                <del class="pl-2 text-left font-p text-danger">5,500,000 تومان</del>
+                            </div>
+                            <div class="d-flex justify-content-between mt-1 pb-3 pr-3 pl-1">
+                                <span class="font-p font-b-sdfd">5 <span>عدد</span></span>
+                                <span class="font-p font-b-sdfd">5,400,000 <span> تومان</span></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- end single commoditys -->
+                </div>
+
+
+
+
+
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </div>
+    <!-- پایان محصولات تخفیفی -->
+
+
+    <!-- banner -->
+    <div class="container-fluid">
+        <div class="row  pl-3 pr-3">
+            <div class="col-12 col-lg-6 mb-3 rounded mx-auto wb-bg-banner1 overflow-hidden">
+                <!-- <img class="  mx-auto"
+                    src="https://dkstatics-public.digikala.com/digikala-adservice-banners/c68ec3ece769466e06a2c74d799cf77c5bf11361_1603201137.gif"
+                    alt="image"> -->
+            </div>
+            <div class="col-12 col-lg-6 rounded wb-bg-banner2 mx-auto overflow-hidden">
+                <!-- <img class=" mx-auto"
+                    src="https://dkstatics-public.digikala.com/digikala-adservice-banners/206200d0dc74a0dd97231f8f76902d90d9f70c11_1602880211.jpg?x-oss-process=image/quality,q_80"
+                    alt="image"> -->
+            </div>
+        </div>
+    </div>
+    <!-- end banner -->
+
+
+    <!-- title for all connodities -->
+    <div class="d-flex align-items-center flex-column justify-content-center pr-4 pl-4 mt-3 pt-lg-4">
+        <div class="d-flex w-100 justify-content-center align-items-center" style="background-color: #004b7d;">
+
+            <h2 class="mt-2 text-center text-white all-commodity-f">
+                محصولات پرفروش
+            </h2>
+
+        </div>
+
+    </div>
+    <!-- end title for all connodities -->
+
+    <!-- محصولات پرفروش -->
+    <div id="test-commodity-1" class="c-container">
+        <div class="swiper-container">
+            <div class="swiper-wrapper m-0">
+                <div class="swiper-slide m-2 shadow  d-flex flex-column p-lg-3">
+                    <!-- single commoditys -->
+                    <div style="border-radius: 7px !important;">
+                        <!-- commodity img -->
+                        <div class="h-set">
+                            <img src="image/carpet_PNG57690@2x.png" class="h-100" style="width: 100%;" alt="carpet_PNG">
+                            <div
+                                class="takhfif-u text-white d-flex justify-content-center align-items-center position-absolute">
+                                10%</div>
+                            <div
+                                class="takhfif-u2 text-white d-flex justify-content-center align-items-center position-absolute">
+                                5</div>
+                        </div>
+                        <!-- end commodity img -->
+
+                        <div class="d-flex flex-column bg-white font-set-c">
+                            <span class="mt-2 text-center">برنج محسن</span>
+                            <div class="d-flex">
+                                <span class="pt-3 text-right pr-3">فروشنده :</span>
+                                <span class="pt-3 text-right pr-1">غدیری</span>
+                            </div>
+                            <del class="pl-2 text-left font-p text-danger font-b-sdfd">5,500,000 تومان</del>
+                            <div class="d-flex justify-content-between mt-2 pb-3 pr-3 pl-1">
+                                <span class="font-p font-b-sdfd">5 عدد</span>
+                                <span class="font-p font-b-sdfd">5,400,000 تومان</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- end single commoditys -->
+                </div>
+                <div class="swiper-slide m-2 shadow  d-flex flex-column p-lg-3">
+                    <!-- single commoditys -->
+                    <div style="border-radius: 7px !important;">
+                        <!-- commodity img -->
+                        <div class="h-set">
+                            <img src="image/carpet_PNG57690@2x.png" class="h-100" style="width: 100%;" alt="carpet_PNG">
+                            <div
+                                class="takhfif-u text-white d-flex justify-content-center align-items-center position-absolute">
+                                10%</div>
+                            <div
+                                class="takhfif-u2 text-white d-flex justify-content-center align-items-center position-absolute">
+                                5</div>
+                        </div>
+                        <!-- end commodity img -->
+
+                        <div class="d-flex flex-column bg-white font-set-c">
+                            <span class="mt-2 text-center">برنج محسن</span>
+                            <div class="d-flex">
+                                <span class="pt-3 text-right pr-3">فروشنده :</span>
+                                <span class="pt-3 text-right pr-1">غدیری</span>
+                            </div>
+                            <del class="pl-2 text-left font-p text-danger font-b-sdfd">5,500,000 تومان</del>
+                            <div class="d-flex justify-content-between mt-2 pb-3 pr-3 pl-1">
+                                <span class="font-p font-b-sdfd">5 عدد</span>
+                                <span class="font-p font-b-sdfd">5,400,000 تومان</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- end single commoditys -->
+                </div>
+
+
+                <div class="swiper-slide m-2 shadow  d-flex flex-column p-lg-3">
+                    <!-- single commoditys -->
+                    <div style="border-radius: 7px !important;">
+                        <!-- commodity img -->
+                        <div class="h-set">
+                            <img src="image/1.png" class="h-100" style="width: 80%;" alt="carpet_PNG">
+                            <div
+                                class="takhfif-u text-white d-flex justify-content-center align-items-center position-absolute">
+                                10%</div>
+                            <div
+                                class="takhfif-u2 text-white d-flex justify-content-center align-items-center position-absolute">
+                                5</div>
+                        </div>
+                        <!-- end commodity img -->
+
+                        <div class="d-flex flex-column bg-white font-set-c">
+                            <span class="mt-2 text-center">برنج محسن</span>
+                            <div class="d-flex">
+                                <span class="pt-3 text-right pr-3">فروشنده :</span>
+                                <span class="pt-3 text-right pr-1">غدیری</span>
+                            </div>
+                            <del class="pl-2 text-left font-p text-danger font-b-sdfd">5,500,000 تومان</del>
+                            <div class="d-flex justify-content-between mt-2 pb-3 pr-3 pl-1">
+                                <span class="font-p font-b-sdfd">5 عدد</span>
+                                <span class="font-p font-b-sdfd">5,400,000 تومان</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- end single commoditys -->
+                </div>
+                <div class="swiper-slide m-2 shadow  d-flex flex-column p-lg-3">
+                    <!-- single commoditys -->
+                    <div style="border-radius: 7px !important;">
+                        <!-- commodity img -->
+                        <div class="h-set">
+                            <img src="image/carpet_PNG57690@2x.png" class="h-100" style="width: 80%" alt="carpet_PNG">
+                            <div
+                                class="takhfif-u text-white d-flex justify-content-center align-items-center position-absolute">
+                                10%</div>
+                            <div
+                                class="takhfif-u2 text-white d-flex justify-content-center align-items-center position-absolute">
+                                5</div>
+                        </div>
+                        <!-- end commodity img -->
+
+                        <div class="d-flex flex-column bg-white font-set-c">
+                            <span class="mt-2 text-center">برنج محسن</span>
+                            <div class="d-flex">
+                                <span class="pt-3 text-right pr-3">فروشنده :</span>
+                                <span class="pt-3 text-right pr-1">غدیری</span>
+                            </div>
+                            <del class="pl-2 text-left font-p text-danger pl-3 font-b-sdfd">5,500,000 تومان</del>
+                            <div class="d-flex justify-content-between mt-2 pb-3 pr-3 pl-3">
+                                <span class="font-p font-b-sdfd">5 عدد</span>
+                                <span class="font-p font-b-sdfd">5,400,000 تومان</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- end single commoditys -->
+                </div>
+                <div class="swiper-slide m-2 shadow  d-flex flex-column p-lg-3">
+                    <!-- single commoditys -->
+                    <div style="border-radius: 7px !important;">
+                        <!-- commodity img -->
+                        <div class="h-set">
+                            <img src="image/carpet_PNG57690@2x.png" class="h-100" style="width: 80%;" alt="carpet_PNG">
+                            <div
+                                class="takhfif-u text-white d-flex justify-content-center align-items-center position-absolute">
+                                10%</div>
+                            <div
+                                class="takhfif-u2 text-white d-flex justify-content-center align-items-center position-absolute">
+                                5</div>
+                        </div>
+                        <!-- end commodity img -->
+
+                        <div class="d-flex flex-column bg-white font-set-c">
+                            <span class="mt-2 text-center">برنج محسن</span>
+                            <div class="d-flex">
+                                <span class="pt-3 text-right pr-3">فروشنده :</span>
+                                <span class="pt-3 text-right pr-1">غدیری</span>
+                            </div>
+                            <del class="pl-2 text-left font-p text-danger font-b-sdfd">5,500,000 تومان</del>
+                            <div class="d-flex justify-content-between mt-2 pb-3 pr-3 pl-1">
+                                <span class="font-p font-b-sdfd">5 عدد</span>
+                                <span class="font-p font-b-sdfd">5,400,000 تومان</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- end single commoditys -->
+                </div>
+
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </div>
+    <!-- پایان محصولات پرفروش -->
+
+
+    <div class="container-fluid overflow-hidden">
+        <div class="row pb-4" style="background-color: #004b7d;">
+            <div class="col-12">
+                <h5 class="text-center text-white p-3">درباره ما</h5>
+            </div>
+            <div class="col-12">
+                <p class="text-center text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+                    quis eos nihil fuga deserunt non
+                    fugit facilis sunt veritatis fugiat amet cum, omnis impedit rem unde eligendi voluptate itaque!
+                    Numquam earum quia vero ratione nobis sunt quidem exercitationem dolorem dolore, eligendi inventore
+                    expedita et doloribus consectetur distinctio debitis, optio quibusdam?</p>
+            </div>
+
+            <div class="col-6 col-lg-3 d-flex flex-column justify-content-center">
+                <div
+                    class="pt-4 bgc-1 mt-3 mx-auto text-center text-primary d-flex justify-content-center align-content-center">
+                    ویژگی</div>
+
+            </div>
+            <div class="col-6 col-lg-3 d-flex flex-column justify-content-center">
+                <div
+                    class="pt-4 bgc-1 mt-3 mx-auto text-center text-primary d-flex justify-content-center align-content-center">
+                    ویژگی</div>
+
+            </div>
+            <div class="col-6 col-lg-3 d-flex flex-column justify-content-center">
+                <div
+                    class="pt-4 bgc-1  mt-3 mx-auto text-center text-primary d-flex justify-content-center align-content-center">
+                    ویژگی</div>
+
+            </div>
+            <div class="col-6 col-lg-3 d-flex flex-column justify-content-center">
+                <div
+                    class="pt-4 bgc-1  mt-3 mx-auto text-center text-primary d-flex justify-content-center align-content-center">
+                    ویژگی</div>
+
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="c-container pt-3 d-flex text-right" style="background-color: #cccccc;margin-bottom: 0 !important;">
+        <img src="image/فرش عاطفی-1@2x.png" class="logo-footer-width-f"
+            style="margin-top: 3.5rem;margin-bottom: 3.5rem;" alt="logo-footer">
+
+        <div class="d-flex flex-column">
+            <h5 class="footer_txt font-weight-bold" style="color: #004b7d;">خانه</h5>
+            <h5 class="footer_txt mt-2 mt-lg-3">فروشنده شو</h5>
+            <h5 class="footer_txt mt-2 mt-lg-3">درباره ما</h5>
+            <h5 class="footer_txt mt-2 mt-lg-3"> تماس با ما</h5>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.1/js/dropify.min.js"></script>
+    <!-- slider -->
+    <script>
+        ; (function (factory) {
+
+            if (typeof define === 'function' && define.amd) {
+                define(['jquery'], factory);
+            } else if (typeof exports !== 'undefined') {
+                module.exports = factory(require('jquery'));
+            } else {
+                factory(jQuery);
+            }
+
+        })(function ($) {
+
+
+            var Zippy = (function (element, settings) {
+
+                var instanceUid = 0;
+
+                function _Zippy(element, settings) {
+                    this.defaults = {
+                        slideDuration: '3000',
+                        speed: 500,
+                        arrowRight: '.arrow-right',
+                        arrowLeft: '.arrow-left'
+                    };
+
+                    // We create a new property to hold our default settings after they
+                    // have been merged with user supplied settings
+                    this.settings = $.extend({}, this, this.defaults, settings);
+
+                    // This object holds values that will change as the plugin operates
+                    this.initials = {
+                        currSlide: 0,
+                        $currSlide: null,
+                        totalSlides: false,
+                        csstransitions: false
+                    };
+
+                    // Attaches the properties of this.initials as direct properties of Zippy
+                    $.extend(this, this.initials);
+
+                    // Here we'll hold a reference to the DOM element passed in
+                    // by the $.each function when this plugin was instantiated
+                    this.$el = $(element);
+
+                    // Ensure that the value of 'this' always references Zippy
+                    this.changeSlide = $.proxy(this.changeSlide, this);
+
+                    // We'll call our initiator function to get things rolling!
+                    this.init();
+
+                    // A little bit of metadata about the instantiated object
+                    // This property will be incremented everytime a new Zippy carousel is created
+                    // It provides each carousel with a unique ID
+                    this.instanceUid = instanceUid++;
+                }
+
+                return _Zippy;
+
+            })();
+
+            /**
+               * Called once per instance
+               * Calls starter methods and associate the '.zippy-carousel' class
+               * @params void
+               * @returns void
+               *
+               */
+            Zippy.prototype.init = function () {
+                //Test to see if cssanimations are available
+                this.csstransitionsTest();
+                // Add a class so we can style our carousel
+                this.$el.addClass('zippy-carousel');
+                // Build out any DOM elements needed for the plugin to run
+                // Eg, we'll create an indicator dot for every slide in the carousel
+                this.build();
+                // Eg. Let the user click next/prev arrows or indicator dots
+                this.events();
+                // Bind any events we'll need for the carousel to function
+                this.activate();
+                // Start the timer loop to control progression to the next slide
+                this.initTimer();
+            };
+
+            /**
+             * Appropriated out of Modernizr v2.8.3
+             * Creates a new DOM element and tests existence of properties on it's
+             * Style object to see if CSSTransitions are available
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.csstransitionsTest = function () {
+                var elem = document.createElement('modernizr');
+                //A list of properties to test for
+                var props = ["transition", "WebkitTransition", "MozTransition", "OTransition", "msTransition"];
+                //Iterate through our new element's Style property to see if these properties exist
+                for (var i in props) {
+                    var prop = props[i];
+                    var result = elem.style[prop] !== undefined ? prop : false;
+                    if (result) {
+                        this.csstransitions = result;
+                        break;
+                    }
+                }
+            };
+
+            /**
+             * Add the CSSTransition duration to the DOM Object's Style property
+             * We trigger this function just before we want the slides to animate
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.addCSSDuration = function () {
+                var _ = this;
+                this.$el.find('.slide').each(function () {
+                    this.style[_.csstransitions + 'Duration'] = _.settings.speed + 'ms';
+                });
+            }
+
+            /**
+           * Remove the CSSTransition duration from the DOM Object's style property
+           * We trigger this function just after the slides have animated
+           * @params void
+           * @returns void
+           *
+           */
+            Zippy.prototype.removeCSSDuration = function () {
+                var _ = this;
+                this.$el.find('.slide').each(function () {
+                    this.style[_.csstransitions + 'Duration'] = '';
+                });
+            }
+
+            /**
+             * Creates a list of indicators based on the amount of slides
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.build = function () {
+                var $indicators = this.$el.append('<ul class="indicators" >').find('.indicators');
+                this.totalSlides = this.$el.find('.slide').length;
+                for (var i = 0; i < this.totalSlides; i++) $indicators.append('<li data-index=' + i + '>');
+            };
+
+            /**
+             * Activates the first slide
+             * Activates the first indicator
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.activate = function () {
+                this.$currSlide = this.$el.find('.slide').eq(0);
+                this.$el.find('.indicators li').eq(0).addClass('active');
+            };
+
+            /**
+           * Associate event handlers to events
+           * For arrow events, we send the placement of the next slide to the handler
+           * @params void
+           * @returns void
+           *
+           */
+            Zippy.prototype.events = function () {
+                $('body')
+                    .on('click', this.settings.arrowRight, { direction: 'right' }, this.changeSlide)
+                    .on('click', this.settings.arrowLeft, { direction: 'left' }, this.changeSlide)
+                    .on('click', '.indicators li', this.changeSlide);
+            };
+
+            /**
+             * TIMER
+             * Resets the timer
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.clearTimer = function () {
+                if (this.timer) clearInterval(this.timer);
+            };
+
+            /**
+             * TIMER
+             * Initialise the timer
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.initTimer = function () {
+                this.timer = setInterval(this.changeSlide, this.settings.slideDuration);
+            };
+
+            /**
+             * TIMER
+             * Start the timer
+             * Reset the throttle to allow changeSlide to be executable
+             * @params void
+             * @returns void
+             *
+             */
+            Zippy.prototype.startTimer = function () {
+                this.initTimer();
+                this.throttle = false;
+            };
+
+            /**
+             * MAIN LOGIC HANDLER
+             * Triggers a set of subfunctions to carry out the animation
+             * @params	object	event
+             * @returns void
+             *
+             */
+            Zippy.prototype.changeSlide = function (e) {
+                //Ensure that animations are triggered one at a time
+                if (this.throttle) return;
+                this.throttle = true;
+
+                //Stop the timer as the animation is getting carried out
+                this.clearTimer();
+
+                // Returns the animation direction (left or right)
+                var direction = this._direction(e);
+
+                // Selects the next slide
+                var animate = this._next(e, direction);
+                if (!animate) return;
+
+                //Active the next slide to scroll into view
+                var $nextSlide = this.$el.find('.slide').eq(this.currSlide).addClass(direction + ' active');
+
+                if (!this.csstransitions) {
+                    this._jsAnimation($nextSlide, direction);
+                } else {
+                    this._cssAnimation($nextSlide, direction);
+                }
+            };
+
+            /**
+             * Returns the animation direction, right or left
+             * @params	object	event
+             * @returns strong	animation direction
+             *
+             */
+            Zippy.prototype._direction = function (e) {
+                var direction;
+
+                // Default to forward movement
+                if (typeof e !== 'undefined') {
+                    direction = (typeof e.data === 'undefined' ? 'right' : e.data.direction);
+                } else {
+                    direction = 'right';
+                }
+                return direction;
+            };
+
+            /**
+             * Updates our plugin with the next slide number
+             * @params	object	event
+             * @params	string	animation direction
+             * @returns boolean continue to animate?
+             *
+             */
+            Zippy.prototype._next = function (e, direction) {
+
+                // If the event was triggered by a slide indicator, we store the data-index value of that indicator
+                var index = (typeof e !== 'undefined' ? $(e.currentTarget).data('index') : undefined);
+
+                //Logic for determining the next slide
+                switch (true) {
+                    //If the event was triggered by an indicator, we set the next slide based on index
+                    case (typeof index !== 'undefined'):
+                        if (this.currSlide == index) {
+                            this.startTimer();
+                            return false;
+                        }
+                        this.currSlide = index;
+                        break;
+                    case (direction == 'right' && this.currSlide < (this.totalSlides - 1)):
+                        this.currSlide++;
+                        break;
+                    case (direction == 'right'):
+                        this.currSlide = 0;
+                        break;
+                    case (direction == 'left' && this.currSlide === 0):
+                        this.currSlide = (this.totalSlides - 1);
+                        break;
+                    case (direction == 'left'):
+                        this.currSlide--;
+                        break;
+                }
+                return true;
+            };
+
+            /**
+             * Executes the animation via CSS transitions
+             * @params	object	Jquery object the next slide to slide into view
+             * @params	string	animation direction
+             * @returns void
+             *
+             */
+            Zippy.prototype._cssAnimation = function ($nextSlide, direction) {
+                //Init CSS transitions
+                setTimeout(function () {
+                    this.$el.addClass('transition');
+                    this.addCSSDuration();
+                    this.$currSlide.addClass('shift-' + direction);
+                }.bind(this), 100);
+
+                //CSS Animation Callback
+                //After the animation has played out, remove CSS transitions
+                //Remove unnecessary classes
+                //Start timer
+                setTimeout(function () {
+                    this.$el.removeClass('transition');
+                    this.removeCSSDuration();
+                    this.$currSlide.removeClass('active shift-left shift-right');
+                    this.$currSlide = $nextSlide.removeClass(direction);
+                    this._updateIndicators();
+                    this.startTimer();
+                }.bind(this), 100 + this.settings.speed);
+            };
+
+            /**
+             * Executes the animation via JS transitions
+             * @params	object	Jquery object the next slide to slide into view
+             * @params	string	animation direction
+             * @returns void
+             *
+             */
+            Zippy.prototype._jsAnimation = function ($nextSlide, direction) {
+                //Cache this reference for use inside animate functions
+                var _ = this;
+
+                // See CSS for explanation of .js-reset-left
+                if (direction == 'right') _.$currSlide.addClass('js-reset-left');
+
+                var animation = {};
+                animation[direction] = '0%';
+
+                var animationPrev = {};
+                animationPrev[direction] = '100%';
+
+                //Animation: Current slide
+                this.$currSlide.animate(animationPrev, this.settings.speed);
+
+                //Animation: Next slide
+                $nextSlide.animate(animation, this.settings.speed, 'swing', function () {
+                    //Get rid of any JS animation residue
+                    _.$currSlide.removeClass('active js-reset-left').attr('style', '');
+                    //Cache the next slide after classes and inline styles have been removed
+                    _.$currSlide = $nextSlide.removeClass(direction).attr('style', '');
+                    _._updateIndicators();
+                    _.startTimer();
+                });
+            };
+
+            /**
+               * Ensures the slide indicators are pointing to the currently active slide
+               * @params	void
+               * @returns	void
+               *
+               */
+            Zippy.prototype._updateIndicators = function () {
+                this.$el.find('.indicators li').removeClass('active').eq(this.currSlide).addClass('active');
+            };
+
+            /**
+             * Initialize the plugin once for each DOM object passed to jQuery
+             * @params	object	options object
+             * @returns void
+             *
+             */
+            $.fn.Zippy = function (options) {
+
+                return this.each(function (index, el) {
+
+                    el.Zippy = new Zippy(el, options);
+
+                });
+
+            };
+
+
+        });
+
+        // Custom options for the carousel
+        var args = {
+            arrowRight: '.arrow-right', //A jQuery reference to the right arrow
+            arrowLeft: '.arrow-left', //A jQuery reference to the left arrow
+            speed: 1000, //The speed of the animation (milliseconds)
+            slideDuration: 4000 //The amount of time between animations (milliseconds)
+        };
+
+        $('.carousel').Zippy(args);
+    </script>
+    <!-- end slider -->
+
+
+    <script>
+
+        var appendNumber = 4;
+        var prependNumber = 1;
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            watchSlidesProgress: false,
+            watchSlidesVisibility: true,
+            slidesPerView: 'auto',
+            grabCursor: true,
+
+
+        });
+        document.querySelector('.prepend-2-slides').addEventListener('click', function (e) {
+            e.preventDefault();
+            swiper.prependSlide([
+                '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>',
+                '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>'
+            ]);
+        });
+        document.querySelector('.prepend-slide').addEventListener('click', function (e) {
+            e.preventDefault();
+            swiper.prependSlide('<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>');
+        });
+        document.querySelector('.append-slide').addEventListener('click', function (e) {
+            e.preventDefault();
+            swiper.appendSlide('<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>');
+        });
+        document.querySelector('.append-2-slides').addEventListener('click', function (e) {
+            e.preventDefault();
+            swiper.appendSlide([
+                '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
+                '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
+            ]);
+        });
+    </script>
+</body>
+
+
+<div class="swiper-slide m-2  rounded shadow p-2 d-flex flex-column p-lg-3">
+    <!-- single commoditys -->
+    <div class="takhfif-u text-white d-flex justify-content-center align-items-center position-absolute">
+        {{off percent}}</div>
+    <div class="w-100 d-flex flex-column h-100 overflow-hidden" style="z-index: 1 !important;">
+        <div class="d-flex justify-content-center overflow-hidden" style="height: 70%; z-index: 1 !important;">
+            <img class="mx-auto col-11 col-sm-6 col-lg-12" src={{image12}} alt="img"
+                style="height: 90%; z-index: 1 !important;">
+        </div>
+        <div class="pl-1" style="height: 30%;">
+            <span class="mt-2 text-dark text-center">{{product name}}</span>
+            <div class="d-flex mt-1">
+                <span class="pt-3 text-right pr-3">فروشنده :</span>
+                <span class="pt-3 text-right pr-1">{{seller name}</span>
+            </div>
+            <div class="text-left">
+                <del class="pl-2 text-left font-p text-danger">{{price}} تومان</del>
+            </div>
+            <div class="d-flex justify-content-between mt-1 pb-3 pr-3 pl-1">
+                <span class="font-p font-b-sdfd">{{count}} عدد</span>
+                <span class="font-p font-b-sdfd">{{price withoff}} تومان</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- end single commoditys -->
+</div>
+
+
+</html>
